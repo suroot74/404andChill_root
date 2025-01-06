@@ -1,5 +1,4 @@
 ---
----
 
 @use 'main
 {%- if jekyll.environment == 'production' -%}
@@ -10,8 +9,8 @@
 /* append your custom style below */
 
 .site-subtitle {
-  text-align: justify;
-  hyphens: auto;
+  text-align: justify !important;
+  hyphens: auto!important ;
   color: #ccc !important;
 }
 
