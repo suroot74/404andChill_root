@@ -218,6 +218,10 @@ exclude:
   - purgecss.js
   - rollup.config.js
   - "package*.json"
+  - assets/404.html
+  - assets/feed.xml
+  - assets/css/jekyll-theme-chirpy.scss
+  - assets/css/jekyll-theme-chirpy.css.map
 
 jekyll-archives:
   enabled: [categories, tags]

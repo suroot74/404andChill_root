@@ -8,3 +8,88 @@
 ';
 
 /* append your custom style below */
+
+.site-subtitle {
+  text-align: justify;
+  hyphens: auto;
+  color: #ccc !important;
+}
+
+.rounded-circle {
+  border-radius: 20% !important;
+}
+
+.site-title {
+  color: #fff !important;
+  text-shadow: 
+    0 0 8px rgba(255, 20, 147, 0.8), 
+    0 0 16px rgba(138, 43, 226, 0.6);
+}
+
+time {
+  display: none !important;
+}
+
+.footer-badge {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.footer-badge img {
+  max-width: 150px;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+.fa-calendar {
+  display: none !important;
+}
+
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.image-item {
+  text-align: center;
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  img {
+    max-width: 200px;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+
+  .caption {
+    margin-top: 8px;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    font-weight: bold;
+  }
+}
+
+.banner-container {
+  text-align: center;
+
+  img {
+    max-width: 100%;
+    height: auto;
+    cursor: default;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+}
