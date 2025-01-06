@@ -52,10 +52,10 @@ _check_status() {
 }
 
 _check_init() {
-  if [[ $(git rev-parse HEAD^1) == "$RELEASE_HASH" ]]; then
-    echo "Already initialized."
-    exit 0
-  fi
+    if [[ $(git rev-parse HEAD^1 2>/dev/null) == "$RELEASE_HASH" ]]; then
+        echo "Already initialized."
+        exit 0
+    fi
 }
 
 check_env() {
@@ -65,9 +65,9 @@ check_env() {
 }
 
 reset_latest() {
-  git reset --hard "$RELEASE_HASH"
-  git clean -fd
-  git submodule update --init --recursive
+    git reset --hard "$RELEASE_HASH"
+    git clean -fd
+    git submodule update --init --recursive
 }
 
 init_files() {
