@@ -45,8 +45,11 @@ jobs:
           ruby-version: 3.1
           bundler-cache: true
 
+      - name: Check Jekyll site
+        run: bundle exec jekyll doctor
+  
       - name: Build site
-        run: bundle exec jekyll b -d "_site${{ steps.pages.outputs.base_path }}"
+        run: run: bundle exec jekyll b -d "_site${{ steps.pages.outputs.base_path }}" --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: "production"
 
