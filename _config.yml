@@ -2,7 +2,6 @@
 
 # Import the theme
 theme: jekyll-theme-chirpy
-
 incremental: true
 
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
@@ -18,17 +17,18 @@ timezone: America/New_York
 
 title: 404 AND CHILL # the main title
 
-tagline: Get Lost in GenX Tech & Culture. Explore the quirks, tech, and trends that defined a generation, from NES cartridges to mixtapes, and relive the milestones that made us who we are.
+tagline: Explore the quirks, tech, and trends that defined a generation, from NES cartridges to mixtapes, and relive the milestones that made us who we are. # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   Get Lost in GenX Tech & Culture. Explore the quirks, tech, and trends that defined a generation, from NES cartridges to mixtapes, and relive the milestones that made us who we are.
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
-url: "https://404andchill.com"
+URL: "https://404andchill.com"
+baseurl: "/"
 
 github:
-  # username:
+  username: suroot74 # change to your GitHub username
 
 twitter:
   username: thinktankdecoy # change to your Twitter username
@@ -36,13 +36,13 @@ twitter:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: WM. Carty
-  email: editor@404andchill.com.com # change to your email address
+  name: "WM. Carty"
+  email: editor@404andchill.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/thinktankdecoy # change to your Twitter homepage
-    - https://bsky.app/profile/thinktankdecoy.bsky.social
-    # - https://github.com/username # change to your GitHub homepage
+    - https://bsky.app/profile/thinktankdecoy.bsky.social # change to your Twitter homepage
+    - https://x.com/thinktankdecoy #
+    - https://github.com/suroot74 # change to your GitHub homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
@@ -88,8 +88,8 @@ pageviews:
 #
 # Available options:
 #
-#     light — Use the light color scheme
-#     dark — Use the dark color scheme
+#     light  -  Use the light color scheme
+#     dark  -  Use the dark color scheme
 #
 theme_mode: dark # [light | dark]
 
@@ -98,28 +98,28 @@ theme_mode: dark # [light | dark]
 # will be added to all media resources (site avatar, posts' images, audio and video files) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-# cdn: "https://chirpy-img.netlify.app"
+# cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: "avatar.jpg"
+avatar: https://404andchill.com/avatar.jpg
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
-social_preview_image: avatar.jpg # string, local or CORS resources
+social_preview_image: https://404andchill.com/avatar.jpg # string, local or CORS resources
 
 # boolean type, the global switch for TOC in posts.
 toc: true
 
 comments:
   # Global switch for the post-comment system. Keeping it empty means disabled.
-  provider: utterances # [disqus | utterances | giscus]
+  provider: # [disqus | utterances | giscus]
   # The provider options are as follows:
   disqus:
     shortname: # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
   # utterances settings › https://utteranc.es/
   utterances:
-    repo: suroot74/404_and_chill # <gh-username>/<repo>
-    issue_term: Issues # < url | pathname | title | ...>
+    repo: suroot74/404-chirp # <gh-username>/<repo>
+    issue_term: pathname # < url | pathname | title | ...
   # Giscus options › https://giscus.app
   giscus:
     repo: # <gh-username>/<repo>
@@ -141,7 +141,7 @@ assets:
     env: # [development | production]
 
 pwa:
-  enabled: true # The option for PWA feature (installable)
+  enabled: false # The option for PWA feature (installable)
   cache:
     enabled: true # The option for PWA offline cache
     # Paths defined here will be excluded from the PWA cache.
@@ -151,9 +151,6 @@ pwa:
       # - "/example"  # URLs match `<SITE_URL>/example/*` will not be cached by the PWA
 
 paginate: 10
-
-# The base URL of your site
-baseurl: ""
 
 # ------------ The following options are not recommended to be modified ------------------
 
@@ -218,16 +215,10 @@ exclude:
   - purgecss.js
   - rollup.config.js
   - "package*.json"
-  - assets/404.html
-  - assets/feed.xml
-  - assets/css/jekyll-theme-chirpy.scss
-  - assets/css/jekyll-theme-chirpy.css.map
 
 jekyll-archives:
-  enabled: [categories, tags]
+  enabled: [categories]
   layouts:
     category: category
-    tag: tag
   permalinks:
-    tag: /tags/:name/
     category: /categories/:name/

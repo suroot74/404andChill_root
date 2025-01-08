@@ -5,45 +5,23 @@
   class="
     d-flex flex-column justify-content-center text-muted
     flex-lg-row justify-content-lg-between align-items-lg-center pb-lg-3
-  "
->
+  ">
   <p>
     {{- '©' }}
     <time>{{ 'now' | date: '%Y' }}</time>
 
-    {% if site.social.links %}
-      <a href="{{ site.social.links[0] }}">{{ site.social.name }}</a>.
+    {% if site.email %}
+      <a href="mailto:{{ site.email[0] }}">editor@404andchill.com</a>
     {% else %}
       <em class="fst-normal">{{ site.social.name }}</em>.
     {% endif %}
 
-    {% if site.data.locales[include.lang].copyright.brief %}
-      <span
-        data-bs-toggle="tooltip"
-        data-bs-placement="top"
-        title="{{ site.data.locales[include.lang].copyright.verbose }}"
-      >
-        {{- site.data.locales[include.lang].copyright.brief -}}
-      </span>
-    {% endif %}
   </p>
 
-  <p>
-    {%- capture _platform -%}
-      <a href="https://jekyllrb.com" target="_blank" rel="noopener">Jekyll</a>
-    {%- endcapture -%}
-
-    {%- capture _theme -%}
-      <a
-        data-bs-toggle="tooltip"
-        data-bs-placement="top"
-        title="v{{ theme.version }}"
-        href="https://github.com/cotes2020/jekyll-theme-chirpy"
-        target="_blank"
-        rel="noopener"
-      >Chirpy</a>
-    {%- endcapture -%}
-
-    {{ site.data.locales[include.lang].meta | replace: ':PLATFORM', _platform | replace: ':THEME', _theme }}
-  </p>
+<div id="random-badge" class="footer-badge">
+  <noscript>
+    <img src="{{ site.data.badges.badges | first }}" alt="Random Badge" class="img-fluid">
+  </noscript>
+</div>
 </footer>
+<script src="{{ 'https://404andchill.com/assets/js/random-badge.js' }}"></script>

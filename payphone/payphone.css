@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(42, 82, 152);
+  background: radial-gradient(circle, rgba(42, 82, 152, 1) 35%, rgba(30, 60, 114, 1) 100%);
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.payphone-container {
+  width: 380px;
+  margin: 10px auto;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+  padding: 15px;
+}
+
+.info-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 15px;
+  vertical-align: middle;
+  }
+
+.info-text {
+  width: 40%;
+  text-transform: uppercase;
+}
+
+.info-text h2 {
+  font-size: 1.3rem;
+  margin-bottom: 8px;
+}
+
+.info-text p {
+  font-size: 0.7rem;
+  line-height: 1.4;
+}
+
+.coin-slot {
+  width: 48px;
+  height: 83px;
+  background-image: url(images/slot.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  cursor: pointer;
+  user-select: none;
+  min-height: 83px;
+  display: flex;
+}
+
+.payphone-img {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+}
+
+.payphone-display {
+  background: repeating-linear-gradient(0deg, #000, #111 1px, #000 2px);
+  color: #33ff33;
+  text-shadow: 0 0 10px #33ff33, 0 0 20px #009900;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 2px inset #555;
+  font-size: 1.2rem;
+  text-align: center;
+  border-radius: 4px;
+  min-height: 40px;
+}
+
+.dial-pad {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.dial-pad button {
+  background-color: #aaa;
+  border: 1px solid #888;
+  border-radius: 4px;
+  padding: 15px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.dial-pad button:hover {
+  background-color: #ccc;
+}
+
+.bottom-container {
+  display: flex;
+  margin-top: 20px;
+}
+
+.coin-return-slot {
+  flex: 0 0 33%;
+  width: auto;
+  height: 120px;
+  background-image: url(images/return.jpeg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  cursor: pointer;
+  user-select: none;
+  display: flex;
+}
+
+.bottom-text {
+  flex: 1;
+  background-color: transparent;
+  padding-left: 10px;
+  display: flex;
+  font-size: 0.6rem;
+  align-items: flex-end;
+}
+
+.page-footer {
+  text-align: center;
+  margin-top: 10px;
+  color: #fff;
+  font-size: 0.9rem;
+}
+
+.page-footer p {
+  color: #fff;
+  text-decoration: none;
+  padding-bottom: 10px;
+}
+
+.page-footer a {
+  color: #009ce7;
+  text-decoration: none;
+  margin: 0 6px;
+}
+
+.page-footer a:hover {
+  color: #fff;
+  text-shadow: 0 0 5px #009ce7;
+  text-decoration: underline;
+}

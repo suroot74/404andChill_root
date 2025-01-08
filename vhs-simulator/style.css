@@ -1,0 +1,127 @@
+/* Base Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--main-bg-color, #000);
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+.vhs-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; /* Ensure controls are at the bottom */
+    align-items: center;
+    position: relative;
+    background: var(--main-bg-color, #000);
+}
+
+.vhs-screen {
+    width: 100%;
+    height: calc(100% - 100px); /* Reserve space for controls */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background: var(--main-bg-color, #000);
+    overflow: hidden; /* Ensure video and glitches don't spill outside */
+}
+
+.vhs-video-wrapper {
+    position: relative;
+    width: 70%;
+    aspect-ratio: 16 / 9; /* Maintain video aspect ratio */
+    overflow: hidden;
+    z-index: 1;
+}
+
+/* Video fills the wrapper using object-fit */
+.vhs-screen video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the video fills the area */
+    position: relative;
+    z-index: 1;
+}
+
+/* Vertical Sync Glitch Effect */
+.vhs-glitches {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none; /* Allow interactions with the video below */
+    z-index: 2; /* Layer above the video */
+    overflow: hidden;
+    background: repeating-linear-gradient(
+        0deg,
+        rgba(255, 255, 255, 0.02) 0%,
+        rgba(255, 255, 255, 0.02) 2px,
+        rgba(0, 0, 0, 0.02) 2px,
+        rgba(0, 0, 0, 0.02) 4px
+    );
+    animation: vertical-sync 0.2s infinite ease-in-out;
+    mix-blend-mode: lighten; /* Blend the glitch with the video */
+    opacity: 0.9;
+}
+
+/* Keyframes for vertical sync effect */
+@keyframes vertical-sync {
+    0% {
+        transform: translateY(0%);
+    }
+    50% {
+        transform: translateY(-2%);
+    }
+    100% {
+        transform: translateY(0%);
+    }
+}
+
+/* Other existing styles retained */
+.vhs-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background: var(--button-bg-color, #222);
+    border-top: 2px solid var(--button-hover-color, #444);
+    padding: 0 1rem;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 3;
+    width: 70%;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+.vhs-button {
+    background: var(--button-bg-color, #222);
+    color: white;
+    border: 2px solid var(--button-hover-color, #444);
+    border-radius: 4px;
+    padding: 10px 15px;
+    font-size: 12px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.2s;
+    box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.5);
+}
+
+.vhs-button:hover {
+    background: var(--button-hover-color, #444);
+}
+
+.vhs-button:active {
+    transform: scale(0.95);
+    background-color: #555;
+}

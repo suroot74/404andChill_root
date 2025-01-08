@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Geocities Page Builder</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unpkg.com/blocks.css/dist/blocks.min.css">
+</head>
+<body>
+  <div id="container">
+    <!-- Left Sidebar: Toolbox -->
+    <aside id="left-sidebar" class="b-shadow b-card b-padded">
+      <h3 class="b-text-bold">Toolbox</h3>
+
+      <!-- Template Selector -->
+      <div id="template-selector" class="b-padded">
+        <label for="templates" class="b-text-small">Choose a Template:</label>
+        <select id="templates" class="b-select">
+          <option value="">Select Template</option>
+          <option value="Welcome Page">Welcome Page</option>
+          <option value="Fan Page">Fan Page</option>
+          <option value="Portfolio">Portfolio</option>
+        </select>
+        <button id="load-template" class="b-btn b-btn-primary">Load Template</button>
+      </div>
+
+      <!-- Buttons -->
+      <button id="add-text" class="b-btn b-btn-secondary">Add Text</button>
+      <button id="add-midi" class="b-btn b-btn-secondary">Add MIDI</button>
+
+      <!-- Background Section -->
+      <h4 class="b-text">Backgrounds</h4>
+      <input type="color" id="bg-color-picker" class="b-input">
+      <div id="bg-library" class="b-stack"></div>
+
+      <!-- GIFs Section -->
+      <h4 class="b-text">GIFs</h4>
+      <div id="gif-library" class="b-stack"></div>
+    </aside>
+
+    <!-- Main Canvas -->
+    <main id="canvas" class="b-shadow b-card"></main>
+  </div>
+
+  <!-- Floating Text Toolbar -->
+  <div id="text-toolbar" style="display: none;" class="b-card b-padded b-shadow">
+    <select id="heading-selector" class="b-select">
+      <option value="p">Normal Text</option>
+      <option value="h1">Heading 1</option>
+      <option value="h2">Heading 2</option>
+      <option value="h3">Heading 3</option>
+    </select>
+    <input type="color" id="text-color-picker" class="b-input" title="Text Color">
+    <select id="font-size-selector" class="b-select">
+      <option value="12px">12px</option>
+      <option value="16px">16px</option>
+      <option value="20px">20px</option>
+      <option value="24px">24px</option>
+      <option value="32px">32px</option>
+    </select>
+    <button id="bold-btn" class="b-btn">B</button>
+    <button id="italic-btn" class="b-btn">I</button>
+    <button id="underline-btn" class="b-btn">U</button>
+  </div>
+
+  <script src="templates.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

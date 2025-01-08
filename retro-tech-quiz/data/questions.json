@@ -1,0 +1,2458 @@
+{
+  "categories": [
+    {
+      "name": "Identify This Sound",
+      "questions": [
+        {
+          "points": 100,
+          "question": "What sound does this represent?",
+          "audio": "dialup.mp3",
+          "options": ["Dial-up modem", "Fax machine", "Dot matrix printer"],
+          "answer": "Dial-up modem"
+        },
+        {
+          "points": 100,
+          "question": "What iconic chime is this?",
+          "audio": "windows95-startup.mp3",
+          "options": ["Windows 95", "Macintosh SE", "Windows XP"],
+          "answer": "Windows 95"
+        },
+        {
+          "points": 100,
+          "question": "What gaming console startup sound is this?",
+          "audio": "sega-genesis.mp3",
+          "options": ["Sega Genesis", "NES", "PlayStation"],
+          "answer": "Sega Genesis"
+        },
+        {
+          "points": 200,
+          "question": "What sound represents this printing device?",
+          "audio": "dot-matrix-printer.mp3",
+          "options": ["Dot matrix printer", "Fax machine", "Typewriter"],
+          "answer": "Dot matrix printer"
+        },
+        {
+          "points": 200,
+          "question": "Identify this error sound.",
+          "audio": "modem-error.mp3",
+          "options": ["Dial-up Modem Error", "Computer Crash", "Fax Connection Issue"],
+          "answer": "Dial-up Modem Error"
+        },
+        {
+          "points": 200,
+          "question": "What handheld gaming console produces this sound?",
+          "audio": "gameboy-startup.mp3",
+          "options": ["Game Boy", "Game Gear", "Atari Lynx"],
+          "answer": "Game Boy"
+        },
+        {
+          "points": 200,
+          "question": "Which sound indicates a successful internet connection?",
+          "audio": "internet-connected.mp3",
+          "options": ["DSL Modem", "Dial-up Modem", "Wi-Fi Router"],
+          "answer": "Dial-up Modem"
+        },
+        {
+          "points": 300,
+          "question": "Identify the sound of this retro computer boot-up.",
+          "audio": "commodore64-boot.mp3",
+          "options": ["Commodore 64", "Apple II", "IBM PC"],
+          "answer": "Commodore 64"
+        },
+        {
+          "points": 300,
+          "question": "Which iconic video game sound is this?",
+          "audio": "pacman-intro.mp3",
+          "options": ["Pac-Man", "Space Invaders", "Donkey Kong"],
+          "answer": "Pac-Man"
+        },
+        {
+          "points": 300,
+          "question": "What is this sound from a vintage home appliance?",
+          "audio": "microwave-1980s.mp3",
+          "options": ["80s Microwave", "Toaster", "Popcorn Maker"],
+          "answer": "80s Microwave"
+        },
+        {
+          "points": 400,
+          "question": "What is the origin of this classic gaming tune?",
+          "audio": "tetris-theme.mp3",
+          "options": ["Tetris", "Mario", "Pong"],
+          "answer": "Tetris"
+        },
+        {
+          "points": 400,
+          "question": "What device startup sound is this?",
+          "audio": "macintosh-1984.mp3",
+          "options": ["Macintosh 128K", "Apple II", "Atari 2600"],
+          "answer": "Macintosh 128K"
+        },
+        {
+          "points": 400,
+          "question": "What sound signals a tech gadget initializing?",
+          "audio": "cassette-player-start.mp3",
+          "options": ["Walkman", "VHS Player", "Cassette Recorder"],
+          "answer": "Cassette Recorder"
+        },
+        {
+          "points": 400,
+          "question": "What device produces this beep pattern?",
+          "audio": "pager-alert.mp3",
+          "options": ["Pager", "Beeper", "Early Cellphone"],
+          "answer": "Pager"
+        },
+        {
+          "points": 600,
+          "question": "Identify this retro computer typing sound.",
+          "audio": "mechanical-keyboard.mp3",
+          "options": ["IBM Model M", "Apple Keyboard", "Commodore 64 Keyboard"],
+          "answer": "IBM Model M"
+        },
+        {
+          "points": 600,
+          "question": "What printer makes this noise during operation?",
+          "audio": "laser-printer-1980s.mp3",
+          "options": ["Laser Printer", "Dot Matrix Printer", "Inkjet Printer"],
+          "answer": "Laser Printer"
+        },
+        {
+          "points": 600,
+          "question": "Which gaming system produced this startup sequence?",
+          "audio": "dreamcast-startup.mp3",
+          "options": ["Sega Dreamcast", "PlayStation", "N64"],
+          "answer": "Sega Dreamcast"
+        },
+        {
+          "points": 800,
+          "question": "What iconic device makes this saving sound?",
+          "audio": "floppy-disk-save.mp3",
+          "options": ["Floppy Disk", "CD-ROM Drive", "Zip Drive"],
+          "answer": "Floppy Disk"
+        },
+        {
+          "points": 800,
+          "question": "What does this modem handshake sound represent?",
+          "audio": "modem-handshake.mp3",
+          "options": ["Dial-Up Connection", "DSL Setup", "Fax Machine Start"],
+          "answer": "Dial-Up Connection"
+        },
+        {
+          "points": 800,
+          "question": "What vintage appliance creates this unique hum?",
+          "audio": "vacuum-tube-tv.mp3",
+          "options": ["Vacuum Tube TV", "CRT Monitor", "Radio Transmitter"],
+          "answer": "Vacuum Tube TV"
+        },
+        {
+          "points": 1200,
+          "question": "What game console produced this iconic CD drive spin sound?",
+          "audio": "playstation-disc.mp3",
+          "options": ["PlayStation 1", "Sega Saturn", "CD-i"],
+          "answer": "PlayStation 1"
+        },
+        {
+          "points": 1200,
+          "question": "What ancient device made this recording click?",
+          "audio": "reel-to-reel-click.mp3",
+          "options": ["Reel-to-Reel Tape Recorder", "Cassette Recorder", "Vinyl Player"],
+          "answer": "Reel-to-Reel Tape Recorder"
+        },
+        {
+          "points": 1200,
+          "question": "Identify the sound of this retro data loading system.",
+          "audio": "data-tape-load.mp3",
+          "options": ["ZX Spectrum", "Commodore 64", "IBM PC"],
+          "answer": "ZX Spectrum"
+        }
+      ]
+    },
+    {
+      "name": "Who Said This Meme?",
+      "questions": [
+        {
+          "points": 100,
+          "question": "Who said, 'All your base are belong to us'?",
+          "options": ["Zero Wing", "Space Invaders", "Tamagotchi"],
+          "answer": "Zero Wing"
+        },
+        {
+          "points": 100,
+          "question": "'I can haz cheezburger?' is a meme from...",
+          "options": ["Grumpy Cat", "LOLcats", "Dogecoin"],
+          "answer": "LOLcats"
+        },
+        {
+          "points": 100,
+          "question": "Who exclaimed 'Over 9000!' in a viral moment?",
+          "options": ["Vegeta", "Goku", "Frieza"],
+          "answer": "Vegeta"
+        },
+        {
+          "points": 200,
+          "question": "This character said, 'Leeeeeroy Jenkins!'",
+          "options": ["World of Warcraft", "EverQuest", "Runescape"],
+          "answer": "World of Warcraft"
+        },
+        {
+          "points": 200,
+          "question": "This 90s meme started: 'Don’t copy that...'",
+          "options": ["Floppy", "Disk", "Game"],
+          "answer": "Floppy"
+        },
+        {
+          "points": 200,
+          "question": "Who said 'Why not Zoidberg?' in a popular meme?",
+          "options": ["Dr. Zoidberg", "Professor Farnsworth", "Bender"],
+          "answer": "Dr. Zoidberg"
+        },
+        {
+          "points": 200,
+          "question": "Which character famously asked, 'Is this a pigeon?'",
+          "options": ["The Brave Fighter of Sun Fighbird", "Ash Ketchum", "Shinji Ikari"],
+          "answer": "The Brave Fighter of Sun Fighbird"
+        },
+        {
+          "points": 300,
+          "question": "Who popularized the meme: 'Never gonna give you up'?",
+          "options": ["Rick Astley", "Toto", "Bee Gees"],
+          "answer": "Rick Astley"
+        },
+        {
+          "points": 300,
+          "question": "What meme is associated with a dancing baby GIF?",
+          "options": ["Baby Cha-Cha-Cha", "Dancing Baby", "Baby Shark"],
+          "answer": "Dancing Baby"
+        },
+        {
+          "points": 300,
+          "question": "'One does not simply walk into Mordor' is a line said by...",
+          "options": ["Boromir", "Aragorn", "Legolas"],
+          "answer": "Boromir"
+        },
+        {
+          "points": 400,
+          "question": "Which cat is featured in 'Grumpy Cat' memes?",
+          "options": ["Tardar Sauce", "Lil Bub", "Garfield"],
+          "answer": "Tardar Sauce"
+        },
+        {
+          "points": 400,
+          "question": "What meme originated with a confused math lady gif?",
+          "options": ["Lady Confused", "Confused Math Lady", "Confused Student"],
+          "answer": "Confused Math Lady"
+        },
+        {
+          "points": 400,
+          "question": "Which character said 'It’s dangerous to go alone! Take this.'?",
+          "options": ["Old Man in The Legend of Zelda", "Link", "Ganondorf"],
+          "answer": "Old Man in The Legend of Zelda"
+        },
+        {
+          "points": 400,
+          "question": "Who famously yelled 'This is Sparta!' in a viral clip?",
+          "options": ["Leonidas", "Achilles", "Hercules"],
+          "answer": "Leonidas"
+        },
+        {
+          "points": 600,
+          "question": "Which viral clip featured 'Double Rainbow all the way'?",
+          "options": ["Double Rainbow Guy", "Yosemite Bear", "Rainbow Dude"],
+          "answer": "Double Rainbow Guy"
+        },
+        {
+          "points": 600,
+          "question": "Which character is known for saying 'Do a barrel roll!'?",
+          "options": ["Peppy Hare", "Fox McCloud", "Falco Lombardi"],
+          "answer": "Peppy Hare"
+        },
+        {
+          "points": 600,
+          "question": "Who is behind the 'Hide Yo Kids, Hide Yo Wife' meme?",
+          "options": ["Antoine Dodson", "Sweet Brown", "Charles Ramsey"],
+          "answer": "Antoine Dodson"
+        },
+        {
+          "points": 800,
+          "question": "Which song is associated with the 'Epic Sax Guy' meme?",
+          "options": ["Run Away", "Saxofunk", "Careless Whisper"],
+          "answer": "Run Away"
+        },
+        {
+          "points": 800,
+          "question": "Who said 'Ain’t nobody got time for that'?",
+          "options": ["Sweet Brown", "Antoine Dodson", "Charles Ramsey"],
+          "answer": "Sweet Brown"
+        },
+        {
+          "points": 800,
+          "question": "Which character asked 'What are those?' in a viral video?",
+          "options": ["Shuri", "Black Panther", "Killmonger"],
+          "answer": "Shuri"
+        },
+        {
+          "points": 1200,
+          "question": "'Is this loss?' refers to a meme from which comic?",
+          "options": ["Ctrl+Alt+Del", "Penny Arcade", "xkcd"],
+          "answer": "Ctrl+Alt+Del"
+        },
+        {
+          "points": 1200,
+          "question": "What was the context of the viral meme 'Charlie Bit My Finger'?",
+          "options": ["A baby biting his brother", "A cat biting a finger", "A dog chewing on a hand"],
+          "answer": "A baby biting his brother"
+        },
+        {
+          "points": 1200,
+          "question": "Which meme originated from a viral video of a YouTube argument?",
+          "options": ["Leave Britney Alone", "Chocolate Rain", "Shoes"],
+          "answer": "Leave Britney Alone"
+        }
+      ]
+    },
+    {
+      "name": "Retro Tech Trivia",
+      "questions": [
+        {
+          "points": 100,
+          "question": "Which company created the Walkman?",
+          "options": ["Sony", "Panasonic", "Sharp"],
+          "answer": "Sony"
+        },
+        {
+          "points": 100,
+          "question": "Which early game console introduced Pong?",
+          "options": ["Atari", "Magnavox Odyssey", "ColecoVision"],
+          "answer": "Magnavox Odyssey"
+        },
+        {
+          "points": 100,
+          "question": "What was the maximum capacity of a 3.5-inch floppy disk?",
+          "options": ["1.44 MB", "5 MB", "750 KB"],
+          "answer": "1.44 MB"
+        },
+        {
+          "points": 200,
+          "question": "What was the original name of the iPod?",
+          "options": ["iTunes Player", "MP3 Buddy", "Pocket Jukebox"],
+          "answer": "Pocket Jukebox"
+        },
+        {
+          "points": 200,
+          "question": "Which tech device used the slogan 'Think Different'?",
+          "options": ["Apple", "IBM", "Microsoft"],
+          "answer": "Apple"
+        },
+        {
+          "points": 200,
+          "question": "What was the name of the first commercially available personal computer?",
+          "options": ["Altair 8800", "IBM PC", "Apple II"],
+          "answer": "Altair 8800"
+        },
+        {
+          "points": 200,
+          "question": "Which operating system was bundled with the original IBM PC?",
+          "options": ["PC DOS", "Windows 1.0", "Unix"],
+          "answer": "PC DOS"
+        },
+        {
+          "points": 300,
+          "question": "Which company introduced the first digital camera?",
+          "options": ["Kodak", "Sony", "Canon"],
+          "answer": "Kodak"
+        },
+        {
+          "points": 300,
+          "question": "What was the name of the first smartphone introduced in 1992?",
+          "options": ["Simon", "BlackBerry", "Palm Pilot"],
+          "answer": "Simon"
+        },
+        {
+          "points": 300,
+          "question": "Which company introduced the first CD player?",
+          "options": ["Sony", "Philips", "Panasonic"],
+          "answer": "Sony"
+        },
+        {
+          "points": 400,
+          "question": "Which company developed the Betamax format?",
+          "options": ["Sony", "JVC", "Panasonic"],
+          "answer": "Sony"
+        },
+        {
+          "points": 400,
+          "question": "What year was the first email sent?",
+          "options": ["1971", "1980", "1969"],
+          "answer": "1971"
+        },
+        {
+          "points": 400,
+          "question": "What was the name of the first computer virus?",
+          "options": ["Creeper", "ILOVEYOU", "Melissa"],
+          "answer": "Creeper"
+        },
+        {
+          "points": 400,
+          "question": "Which computer was famously introduced at the 1984 Super Bowl?",
+          "options": ["Macintosh 128K", "IBM PC", "Commodore 64"],
+          "answer": "Macintosh 128K"
+        },
+        {
+          "points": 600,
+          "question": "What was the name of the first widely available portable computer?",
+          "options": ["Osborne 1", "Compaq Portable", "Apple Lisa"],
+          "answer": "Osborne 1"
+        },
+        {
+          "points": 600,
+          "question": "Which company launched the TRS-80 computer?",
+          "options": ["Radio Shack", "Commodore", "IBM"],
+          "answer": "Radio Shack"
+        },
+        {
+          "points": 600,
+          "question": "What was the first computer to feature a graphical user interface (GUI)?",
+          "options": ["Xerox Alto", "Apple Macintosh", "Commodore Amiga"],
+          "answer": "Xerox Alto"
+        },
+        {
+          "points": 800,
+          "question": "Which computer was the first to use a mouse?",
+          "options": ["Xerox Alto", "Apple Lisa", "IBM PC"],
+          "answer": "Xerox Alto"
+        },
+        {
+          "points": 800,
+          "question": "What is the name of the first web browser?",
+          "options": ["WorldWideWeb", "Netscape Navigator", "Internet Explorer"],
+          "answer": "WorldWideWeb"
+        },
+        {
+          "points": 800,
+          "question": "Which early portable gaming console included a built-in TV tuner?",
+          "options": ["Sega Game Gear", "Nintendo Game Boy", "Atari Lynx"],
+          "answer": "Sega Game Gear"
+        },
+        {
+          "points": 1200,
+          "question": "Which computer was nicknamed 'The Beige Box'?",
+          "options": ["IBM PC", "Apple II", "Commodore 64"],
+          "answer": "IBM PC"
+        },
+        {
+          "points": 1200,
+          "question": "What was the first mass-market computer to include a built-in monitor and disk drive?",
+          "options": ["Commodore PET", "Apple Lisa", "Macintosh 128K"],
+          "answer": "Commodore PET"
+        },
+        {
+          "points": 1200,
+          "question": "What technology was introduced in the early 1980s to replace vinyl records?",
+          "options": ["CDs", "Cassette Tapes", "LaserDiscs"],
+          "answer": "CDs"
+        }
+      ]
+    },
+    {
+      "name": "Iconic Tech Ads",
+      "questions": [
+        {
+          "points": 100,
+          "question": "Which company’s ad famously said, 'Think Different'?",
+          "options": ["Apple", "Microsoft", "Google"],
+          "answer": "Apple"
+        },
+        {
+          "points": 100,
+          "question": "In the 90s, which company aired the ‘I’m a Mac, I’m a PC’ ads?",
+          "options": ["Microsoft", "Apple", "Intel"],
+          "answer": "Apple"
+        },
+        {
+          "points": 100,
+          "question": "Which company aired the 'Can You Hear Me Now?' commercials?",
+          "options": ["Verizon", "AT&T", "Sprint"],
+          "answer": "Verizon"
+        },
+        {
+          "points": 200,
+          "question": "What was the famous line in the 1984 Apple Super Bowl ad?",
+          "options": ["Think Different", "The Future is Now", "1984 isn’t like 1984"],
+          "answer": "1984 isn’t like 1984"
+        },
+        {
+          "points": 200,
+          "question": "Which tech ad used the slogan, 'The Ultimate Driving Machine'?",
+          "options": ["BMW", "Audi", "Mercedes-Benz"],
+          "answer": "BMW"
+        },
+        {
+          "points": 200,
+          "question": "Which company's ad popularized the slogan 'Where do you want to go today?'",
+          "options": ["Microsoft", "Apple", "Netscape"],
+          "answer": "Microsoft"
+        },
+        {
+          "points": 200,
+          "question": "Which company first aired the slogan 'Intel Inside'?",
+          "options": ["Intel", "AMD", "Dell"],
+          "answer": "Intel"
+        },
+        {
+          "points": 300,
+          "question": "What company’s campaign featured 'Dude, you’re getting a Dell!'?",
+          "options": ["Dell", "Compaq", "HP"],
+          "answer": "Dell"
+        },
+        {
+          "points": 300,
+          "question": "What song was famously used in Apple's iPod silhouette ads?",
+          "options": ["Hey Mama by The Black Eyed Peas", "Technologic by Daft Punk", "Vertigo by U2"],
+          "answer": "Hey Mama by The Black Eyed Peas"
+        },
+        {
+          "points": 300,
+          "question": "Which company created the 'Think Small' ad campaign?",
+          "options": ["Volkswagen", "BMW", "Sony"],
+          "answer": "Volkswagen"
+        },
+        {
+          "points": 400,
+          "question": "Which company’s campaign featured a dancing silhouette to a Daft Punk song?",
+          "options": ["Apple", "Sony", "Microsoft"],
+          "answer": "Apple"
+        },
+        {
+          "points": 400,
+          "question": "Which company aired the ad featuring '1984 isn’t like 1984'?",
+          "options": ["Apple", "IBM", "Microsoft"],
+          "answer": "Apple"
+        },
+        {
+          "points": 400,
+          "question": "What slogan was used in Sony’s Walkman ads in the 1980s?",
+          "options": ["Sound On The Go", "Music Anytime, Anywhere", "Walkman: For The Way You Move"],
+          "answer": "Music Anytime, Anywhere"
+        },
+        {
+          "points": 400,
+          "question": "Which console had the slogan 'Now you’re playing with power'?",
+          "options": ["Nintendo", "Sega", "Atari"],
+          "answer": "Nintendo"
+        },
+        {
+          "points": 600,
+          "question": "Which tech ad featured the slogan 'The Power to Be Your Best'?",
+          "options": ["Apple", "IBM", "Microsoft"],
+          "answer": "Apple"
+        },
+        {
+          "points": 600,
+          "question": "Which company advertised the first color TV with the slogan 'You see it all in living color'?",
+          "options": ["RCA", "Sony", "Philips"],
+          "answer": "RCA"
+        },
+        {
+          "points": 600,
+          "question": "Which 90s Microsoft campaign featured 'Start Me Up' by The Rolling Stones?",
+          "options": ["Windows 95", "Windows XP", "Windows NT"],
+          "answer": "Windows 95"
+        },
+        {
+          "points": 800,
+          "question": "Which company’s Super Bowl ad featured the tagline 'Halftime in America'?",
+          "options": ["Chrysler", "Ford", "Apple"],
+          "answer": "Chrysler"
+        },
+        {
+          "points": 800,
+          "question": "Which company ran ads featuring the 'Think Small' campaign?",
+          "options": ["Volkswagen", "Fiat", "Mini"],
+          "answer": "Volkswagen"
+        },
+        {
+          "points": 800,
+          "question": "Which computer company ran the campaign with 'The computer for the rest of us'?",
+          "options": ["Apple", "IBM", "Commodore"],
+          "answer": "Apple"
+        },
+        {
+          "points": 1200,
+          "question": "What company created the memorable 'This Changes Everything. Again.' campaign?",
+          "options": ["Apple", "Google", "Microsoft"],
+          "answer": "Apple"
+        },
+        {
+          "points": 1200,
+          "question": "What product used the tagline 'A diamond is forever'?",
+          "options": ["De Beers", "Tiffany & Co.", "Cartier"],
+          "answer": "De Beers"
+        },
+        {
+          "points": 1200,
+          "question": "Which iconic campaign featured the phrase 'Don’t leave home without it'?",
+          "options": ["American Express", "MasterCard", "Visa"],
+          "answer": "American Express"
+        }
+      ]
+    },
+        {
+      "name": "Retro Games",
+      "questions": [
+        {
+          "points": 100,
+          "question": "Which classic arcade game features a yellow character eating dots?",
+          "options": ["Pac-Man", "Donkey Kong", "Space Invaders"],
+          "answer": "Pac-Man"
+        },
+        {
+          "points": 100,
+          "question": "What was the first home console to play a video game?",
+          "options": ["Atari 2600", "Magnavox Odyssey", "ColecoVision"],
+          "answer": "Magnavox Odyssey"
+        },
+        {
+          "points": 100,
+          "question": "What game involves stacking falling blocks to clear lines?",
+          "options": ["Tetris", "Pong", "Breakout"],
+          "answer": "Tetris"
+        },
+        {
+          "points": 200,
+          "question": "What was the first portable gaming console from Nintendo?",
+          "options": ["Game Boy", "Nintendo DS", "Game Gear"],
+          "answer": "Game Boy"
+        },
+        {
+          "points": 200,
+          "question": "Which 80s arcade game featured a battle between humans and aliens?",
+          "options": ["Space Invaders", "Galaga", "Asteroids"],
+          "answer": "Space Invaders"
+        },
+        {
+          "points": 200,
+          "question": "Which arcade game is credited as the first video game with a boss fight?",
+          "options": ["Space Invaders", "Donkey Kong", "Phoenix"],
+          "answer": "Phoenix"
+        },
+        {
+          "points": 200,
+          "question": "What early video game featured two paddles and a ball?",
+          "options": ["Pong", "Breakout", "Tennis"],
+          "answer": "Pong"
+        },
+        {
+          "points": 300,
+          "question": "Which game featured the first video game character, Mario?",
+          "options": ["Super Mario Bros.", "Donkey Kong", "Pong"],
+          "answer": "Donkey Kong"
+        },
+        {
+          "points": 300,
+          "question": "Which 1980 arcade game is set in a nuclear wasteland with tanks?",
+          "options": ["Battlezone", "Asteroids", "Missile Command"],
+          "answer": "Battlezone"
+        },
+        {
+          "points": 300,
+          "question": "What was the name of the protagonist in the Metroid series?",
+          "options": ["Samus Aran", "Link", "Master Chief"],
+          "answer": "Samus Aran"
+        },
+        {
+          "points": 400,
+          "question": "Which classic arcade game was the first to save player initials for high scores?",
+          "options": ["Asteroids", "Space Invaders", "Pac-Man"],
+          "answer": "Asteroids"
+        },
+        {
+          "points": 400,
+          "question": "Which classic RPG game series began with 'Warriors of Light'?",
+          "options": ["Final Fantasy", "Dragon Quest", "Zelda"],
+          "answer": "Final Fantasy"
+        },
+        {
+          "points": 400,
+          "question": "Which early game featured characters like Inky, Blinky, Pinky, and Clyde?",
+          "options": ["Pac-Man", "Donkey Kong", "Space Invaders"],
+          "answer": "Pac-Man"
+        },
+        {
+          "points": 400,
+          "question": "What is the subtitle of the second Legend of Zelda game?",
+          "options": ["The Adventure of Link", "A Link to the Past", "Ocarina of Time"],
+          "answer": "The Adventure of Link"
+        },
+        {
+          "points": 600,
+          "question": "Which game introduced the character Sonic the Hedgehog?",
+          "options": ["Sonic the Hedgehog", "Sonic CD", "Sonic Spinball"],
+          "answer": "Sonic the Hedgehog"
+        },
+        {
+          "points": 600,
+          "question": "What game is considered the first successful MMO?",
+          "options": ["Ultima Online", "World of Warcraft", "EverQuest"],
+          "answer": "Ultima Online"
+        },
+        {
+          "points": 600,
+          "question": "Which console launched with the game Super Mario World?",
+          "options": ["Super Nintendo", "Nintendo 64", "GameCube"],
+          "answer": "Super Nintendo"
+        },
+        {
+          "points": 800,
+          "question": "Which Sega console introduced the game Phantasy Star Online?",
+          "options": ["Dreamcast", "Saturn", "Genesis"],
+          "answer": "Dreamcast"
+        },
+        {
+          "points": 800,
+          "question": "Which 1993 video game is credited with popularizing the first-person shooter genre?",
+          "options": ["Doom", "Wolfenstein 3D", "Quake"],
+          "answer": "Doom"
+        },
+        {
+          "points": 800,
+          "question": "Which 1990s game featured a battle between an earthworm and alien villains?",
+          "options": ["Earthworm Jim", "Toejam and Earl", "Contra"],
+          "answer": "Earthworm Jim"
+        },
+        {
+          "points": 1200,
+          "question": "What was the first video game to feature open-world exploration?",
+          "options": ["The Legend of Zelda", "Metroid", "Elite"],
+          "answer": "Elite"
+        },
+        {
+          "points": 1200,
+          "question": "What is the subtitle of the original Final Fantasy VII?",
+          "options": ["No subtitle", "Crisis Core", "Advent Children"],
+          "answer": "No subtitle"
+        },
+        {
+          "points": 1200,
+          "question": "Which classic game was originally titled Jumpman?",
+          "options": ["Donkey Kong", "Mario Bros.", "Pong"],
+          "answer": "Donkey Kong"
+        }
+      ]
+    },
+    {
+      "name": "Retro TV Tech",
+      "questions": [
+        {
+          "points": 100,
+          "question": "What was the first major color TV network?",
+          "options": ["NBC", "CBS", "ABC"],
+          "answer": "NBC"
+        },
+        {
+          "points": 100,
+          "question": "Which iconic device allowed recording of TV shows in the 1980s?",
+          "options": ["VHS", "Betamax", "LaserDisc"],
+          "answer": "VHS"
+        },
+        {
+          "points": 100,
+          "question": "Which TV format competed with VHS during the 80s?",
+          "options": ["Betamax", "LaserDisc", "MiniDV"],
+          "answer": "Betamax"
+        },
+        {
+          "points": 200,
+          "question": "What was the first widely used remote control called?",
+          "options": ["The Clicker", "Zenith Flashmatic", "The Wizard"],
+          "answer": "Zenith Flashmatic"
+        },
+        {
+          "points": 200,
+          "question": "Which company developed the first color television set?",
+          "options": ["RCA", "Sony", "Philips"],
+          "answer": "RCA"
+        },
+        {
+          "points": 200,
+          "question": "Which TV technology used discs that resembled vinyl records?",
+          "options": ["LaserDisc", "Betamax", "VHS"],
+          "answer": "LaserDisc"
+        },
+        {
+          "points": 200,
+          "question": "What is the name of the TV technology that predates plasma screens?",
+          "options": ["CRT", "LCD", "OLED"],
+          "answer": "CRT"
+        },
+        {
+          "points": 300,
+          "question": "Which television technology introduced the concept of flat screens?",
+          "options": ["Plasma", "OLED", "CRT"],
+          "answer": "Plasma"
+        },
+        {
+          "points": 300,
+          "question": "What technology was used in rear-projection TVs of the 90s?",
+          "options": ["CRT Projection", "DLP", "LED"],
+          "answer": "CRT Projection"
+        },
+        {
+          "points": 300,
+          "question": "Which company introduced the Trinitron TV line?",
+          "options": ["Sony", "Samsung", "Panasonic"],
+          "answer": "Sony"
+        },
+        {
+          "points": 400,
+          "question": "Which invention enabled TVs to receive signals wirelessly in the 1950s?",
+          "options": ["Rabbit Ears Antennas", "Satellite Dishes", "Cable Boxes"],
+          "answer": "Rabbit Ears Antennas"
+        },
+        {
+          "points": 400,
+          "question": "What was the first pay-per-view TV service introduced in the US?",
+          "options": ["ONTV", "HBO", "Showtime"],
+          "answer": "ONTV"
+        },
+        {
+          "points": 400,
+          "question": "Which TV broadcast technology introduced stereo sound?",
+          "options": ["NICAM", "VHF", "UHF"],
+          "answer": "NICAM"
+        },
+        {
+          "points": 400,
+          "question": "Which TV standard was first used to transmit color broadcasts in the US?",
+          "options": ["NTSC", "PAL", "SECAM"],
+          "answer": "NTSC"
+        },
+        {
+          "points": 600,
+          "question": "What year did the first HDTV broadcasts begin in the United States?",
+          "options": ["1998", "1996", "2000"],
+          "answer": "1998"
+        },
+        {
+          "points": 600,
+          "question": "Which company developed the first consumer plasma TV?",
+          "options": ["Fujitsu", "Panasonic", "Sony"],
+          "answer": "Fujitsu"
+        },
+        {
+          "points": 600,
+          "question": "What was the maximum resolution supported by early CRT TVs?",
+          "options": ["480i", "720p", "1080p"],
+          "answer": "480i"
+        },
+        {
+          "points": 800,
+          "question": "Which video format allowed recording of multiple TV shows simultaneously?",
+          "options": ["TiVo", "VHS", "Betamax"],
+          "answer": "TiVo"
+        },
+        {
+          "points": 800,
+          "question": "What year did color TV become widely available in the US?",
+          "options": ["1966", "1960", "1970"],
+          "answer": "1966"
+        },
+        {
+          "points": 800,
+          "question": "What was the main competitor to VHS in the home video market?",
+          "options": ["Betamax", "LaserDisc", "MiniDV"],
+          "answer": "Betamax"
+        },
+        {
+          "points": 1200,
+          "question": "Which TV innovation was introduced by Zenith in 1955?",
+          "options": ["Wireless Remote Control", "Color TV", "Cable Tuner"],
+          "answer": "Wireless Remote Control"
+        },
+        {
+          "points": 1200,
+          "question": "What type of cable was required for early HD video signals?",
+          "options": ["Component Cables", "Composite Cables", "VGA Cables"],
+          "answer": "Component Cables"
+        },
+        {
+          "points": 1200,
+          "question": "Which early TV technology used phosphor-coated screens?",
+          "options": ["CRT", "Plasma", "LCD"],
+          "answer": "CRT"
+        }
+      ]
+    },
+          {
+      "name": "80s and 90s Toy Gadgets",
+      "questions": [
+        {
+          "points": 100,
+          "question": "What virtual pet became a craze in the 90s?",
+          "options": ["Tamagotchi", "Furby", "Game Boy"],
+          "answer": "Tamagotchi"
+        },
+        {
+          "points": 100,
+          "question": "Which toy allowed kids to record their voices and play it back?",
+          "options": ["Talkboy", "Yak Bak", "Teddy Ruxpin"],
+          "answer": "Yak Bak"
+        },
+        {
+          "points": 100,
+          "question": "Which doll was designed to eat plastic snacks?",
+          "options": ["Baby Alive", "Snacktime Cabbage Patch Kid", "Polly Pocket"],
+          "answer": "Snacktime Cabbage Patch Kid"
+        },
+        {
+          "points": 200,
+          "question": "Which talking toy was inspired by a sci-fi teddy bear?",
+          "options": ["Teddy Ruxpin", "Furby", "Gizmo"],
+          "answer": "Teddy Ruxpin"
+        },
+        {
+          "points": 200,
+          "question": "Which toy gadget could send secret messages using a pen and UV light?",
+          "options": ["Spy Pen", "Decoder Ring", "Light Writer"],
+          "answer": "Spy Pen"
+        },
+        {
+          "points": 200,
+          "question": "Which toy allowed kids to 'bake' their own treats?",
+          "options": ["Easy-Bake Oven", "Snacktime Oven", "Magic Bake Lite"],
+          "answer": "Easy-Bake Oven"
+        },
+        {
+          "points": 200,
+          "question": "What 90s toy spun on a string and lit up with colorful patterns?",
+          "options": ["Yo-Yo", "Skip-It", "Duncan Glow Spin"],
+          "answer": "Yo-Yo"
+        },
+        {
+          "points": 300,
+          "question": "Which toy included programmable robots and was a precursor to STEM toys?",
+          "options": ["Lego Mindstorms", "RoboSapien", "Tamagotchi Robotics"],
+          "answer": "Lego Mindstorms"
+        },
+        {
+          "points": 300,
+          "question": "Which handheld gadget featured a tiny screen and allowed kids to play games?",
+          "options": ["Game Boy", "Tiger Electronics Handheld", "Neo Geo Pocket"],
+          "answer": "Tiger Electronics Handheld"
+        },
+        {
+          "points": 300,
+          "question": "Which electronic pet required feeding, cleaning, and care to thrive?",
+          "options": ["Tamagotchi", "Furby", "Nano Pet"],
+          "answer": "Tamagotchi"
+        },
+        {
+          "points": 400,
+          "question": "Which interactive doll could recognize and respond to certain words?",
+          "options": ["Chatty Cathy", "Amazing Ally", "My Pal 2"],
+          "answer": "Amazing Ally"
+        },
+        {
+          "points": 400,
+          "question": "Which toy gadget let you draw using a spinning mechanism and colored pens?",
+          "options": ["Spirograph", "Etch A Sketch", "Spin Art"],
+          "answer": "Spirograph"
+        },
+        {
+          "points": 400,
+          "question": "Which electronic toy became famous for saying 'I love you!' in a robotic voice?",
+          "options": ["Furby", "Teddy Ruxpin", "My Pal 2"],
+          "answer": "Furby"
+        },
+        {
+          "points": 400,
+          "question": "What toy featured interlocking plastic bricks that became a building phenomenon?",
+          "options": ["LEGO", "K’Nex", "Lincoln Logs"],
+          "answer": "LEGO"
+        },
+        {
+          "points": 600,
+          "question": "What gadget allowed kids to make glowing designs using plastic pegs?",
+          "options": ["Lite-Brite", "Glow Dome", "Bright Blocks"],
+          "answer": "Lite-Brite"
+        },
+        {
+          "points": 600,
+          "question": "Which electronic device played back cassette tapes and read-along stories?",
+          "options": ["Teddy Ruxpin", "My First Sony", "Fisher-Price Cassette Player"],
+          "answer": "Teddy Ruxpin"
+        },
+        {
+          "points": 600,
+          "question": "Which toy car track introduced the concept of magnetic propulsion?",
+          "options": ["Hot Wheels Sizzlers", "Micro Machines", "Slot Cars"],
+          "answer": "Hot Wheels Sizzlers"
+        },
+        {
+          "points": 800,
+          "question": "Which toy gadget allowed you to take instant photos?",
+          "options": ["Polaroid Camera", "Fujifilm Instax", "Photo Snap"],
+          "answer": "Polaroid Camera"
+        },
+        {
+          "points": 800,
+          "question": "Which wearable toy made clicking sounds as you walked or skipped?",
+          "options": ["Skip-It", "Click Clacks", "Pogo Ball"],
+          "answer": "Skip-It"
+        },
+        {
+          "points": 800,
+          "question": "Which talking doll was based on a popular sitcom character?",
+          "options": ["Urkel Doll", "Alf Doll", "Cabbage Patch Kid"],
+          "answer": "Urkel Doll"
+        },
+        {
+          "points": 1200,
+          "question": "Which game combined the concept of a board game with VHS technology?",
+          "options": ["Nightmare", "Clue VCR Mystery Game", "Tales of the Crystals"],
+          "answer": "Nightmare"
+        },
+        {
+          "points": 1200,
+          "question": "Which 90s toy let you create edible gummies in bug shapes?",
+          "options": ["Creepy Crawlers", "Gummy Maker", "Bug Bites"],
+          "answer": "Creepy Crawlers"
+        },
+        {
+          "points": 1200,
+          "question": "What wrist-worn gadget allowed kids to communicate over short distances?",
+          "options": ["Yak Bak Communicator", "Walkie Talkie Watches", "Spy Gear Wrist Communicator"],
+          "answer": "Walkie Talkie Watches"
+        }
+      ]
+    },
+          {
+      "name": "Vintage Computers",
+      "questions": [
+        {
+          "points": 100,
+          "question": "Which computer launched the personal computing revolution?",
+          "options": ["Apple II", "IBM 5150", "Commodore PET"],
+          "answer": "Apple II"
+        },
+        {
+          "points": 100,
+          "question": "What was the first portable computer released to the public?",
+          "options": ["Osborne 1", "Compaq Portable", "Apple Lisa"],
+          "answer": "Osborne 1"
+        },
+        {
+          "points": 100,
+          "question": "Which computer is often credited with starting the desktop publishing revolution?",
+          "options": ["Macintosh 128K", "Commodore 64", "IBM PC"],
+          "answer": "Macintosh 128K"
+        },
+        {
+          "points": 200,
+          "question": "Which company produced the TRS-80, one of the first mass-produced computers?",
+          "options": ["Radio Shack", "IBM", "Apple"],
+          "answer": "Radio Shack"
+        },
+        {
+          "points": 200,
+          "question": "What computer was known as 'The Beige Box'?",
+          "options": ["IBM PC", "Apple II", "Commodore 64"],
+          "answer": "IBM PC"
+        },
+        {
+          "points": 200,
+          "question": "What operating system did the first IBM PC use?",
+          "options": ["PC DOS", "Windows 1.0", "Unix"],
+          "answer": "PC DOS"
+        },
+        {
+          "points": 200,
+          "question": "Which early computer featured a BASIC programming language interpreter?",
+          "options": ["Commodore PET", "Apple II", "Altair 8800"],
+          "answer": "Commodore PET"
+        },
+        {
+          "points": 300,
+          "question": "Which computer was designed specifically for hobbyists and enthusiasts in the 1970s?",
+          "options": ["Altair 8800", "Apple I", "Commodore VIC-20"],
+          "answer": "Altair 8800"
+        },
+        {
+          "points": 300,
+          "question": "What computer was known for its revolutionary graphical user interface (GUI)?",
+          "options": ["Apple Lisa", "Macintosh 128K", "Xerox Alto"],
+          "answer": "Xerox Alto"
+        },
+        {
+          "points": 300,
+          "question": "What was the primary use of the IBM 1401 computer in the 1960s?",
+          "options": ["Data Processing", "Scientific Calculations", "Gaming"],
+          "answer": "Data Processing"
+        },
+        {
+          "points": 400,
+          "question": "Which computer introduced the first widely used floppy disk drive?",
+          "options": ["IBM System/360", "Apple Lisa", "Commodore 64"],
+          "answer": "IBM System/360"
+        },
+        {
+          "points": 400,
+          "question": "Which early computer had a keyboard and monitor integrated into its design?",
+          "options": ["Commodore PET", "Apple II", "Altair 8800"],
+          "answer": "Commodore PET"
+        },
+        {
+          "points": 400,
+          "question": "What company created the CP/M operating system popular in the late 1970s?",
+          "options": ["Digital Research", "Microsoft", "Apple"],
+          "answer": "Digital Research"
+        },
+        {
+          "points": 400,
+          "question": "Which company developed the first laptop computer, the GRiD Compass?",
+          "options": ["GRiD Systems Corporation", "IBM", "Toshiba"],
+          "answer": "GRiD Systems Corporation"
+        },
+        {
+          "points": 600,
+          "question": "Which computer is known as the best-selling personal computer of all time?",
+          "options": ["Commodore 64", "Apple II", "IBM PC"],
+          "answer": "Commodore 64"
+        },
+        {
+          "points": 600,
+          "question": "What was the first computer to feature a built-in mouse?",
+          "options": ["Apple Lisa", "Macintosh 128K", "Xerox Alto"],
+          "answer": "Xerox Alto"
+        },
+        {
+          "points": 600,
+          "question": "What was unique about the Sinclair ZX Spectrum compared to other home computers?",
+          "options": ["Rubber Keyboard", "Graphical Interface", "Integrated Printer"],
+          "answer": "Rubber Keyboard"
+        },
+        {
+          "points": 800,
+          "question": "Which company developed the DEC PDP-11, a popular minicomputer in the 1970s?",
+          "options": ["Digital Equipment Corporation", "IBM", "Commodore"],
+          "answer": "Digital Equipment Corporation"
+        },
+        {
+          "points": 800,
+          "question": "What feature made the Apple Macintosh 128K revolutionary in 1984?",
+          "options": ["Graphical User Interface", "Color Display", "Wireless Keyboard"],
+          "answer": "Graphical User Interface"
+        },
+        {
+          "points": 800,
+          "question": "Which computer featured a cassette tape drive for data storage?",
+          "options": ["Commodore VIC-20", "TRS-80", "Apple II"],
+          "answer": "Commodore VIC-20"
+        },
+        {
+          "points": 1200,
+          "question": "Which early computer came as a kit for hobbyists to assemble?",
+          "options": ["Altair 8800", "Apple I", "Commodore PET"],
+          "answer": "Altair 8800"
+        },
+        {
+          "points": 1200,
+          "question": "What company created the VAX series of computers in the 1970s?",
+          "options": ["Digital Equipment Corporation", "IBM", "Tandy"],
+          "answer": "Digital Equipment Corporation"
+        },
+        {
+          "points": 1200,
+          "question": "Which computer featured a 'Peek' and 'Poke' command for memory manipulation?",
+          "options": ["Commodore 64", "Apple II", "TRS-80"],
+          "answer": "Commodore 64"
+        }
+      ]
+    },
+          {
+      "name": "Retro Sci-Fi Devices",
+      "questions": [
+        {
+          "points": 100,
+          "question": "Which series introduced the Tricorder device?",
+          "options": ["Star Trek", "Doctor Who", "Battlestar Galactica"],
+          "answer": "Star Trek"
+        },
+        {
+          "points": 100,
+          "question": "What is the name of the lightsaber's energy source?",
+          "options": ["Kyber Crystal", "Photon Battery", "Plasma Core"],
+          "answer": "Kyber Crystal"
+        },
+        {
+          "points": 100,
+          "question": "Which show featured a communication device called a wrist communicator?",
+          "options": ["Star Trek", "Buck Rogers", "Dick Tracy"],
+          "answer": "Dick Tracy"
+        },
+        {
+          "points": 200,
+          "question": "Which device in Star Trek was used to beam people to another location?",
+          "options": ["Transporter", "Warp Drive", "Shuttlepod"],
+          "answer": "Transporter"
+        },
+        {
+          "points": 200,
+          "question": "What was the name of the intelligent computer aboard the starship Enterprise?",
+          "options": ["HAL 9000", "M5 Multitronic Unit", "LCARS"],
+          "answer": "LCARS"
+        },
+        {
+          "points": 200,
+          "question": "Which show introduced the Sonic Screwdriver?",
+          "options": ["Doctor Who", "Star Trek", "Lost in Space"],
+          "answer": "Doctor Who"
+        },
+        {
+          "points": 200,
+          "question": "What retro sci-fi device could translate alien languages instantly?",
+          "options": ["Universal Translator", "Babel Fish", "Language Matrix"],
+          "answer": "Universal Translator"
+        },
+        {
+          "points": 300,
+          "question": "Which device from Star Wars projects holographic images?",
+          "options": ["Holo-Projector", "CommLink", "Astromech Droid"],
+          "answer": "Holo-Projector"
+        },
+        {
+          "points": 300,
+          "question": "What was the name of the artificial intelligence in 2001: A Space Odyssey?",
+          "options": ["HAL 9000", "MU-TH-UR", "LCARS"],
+          "answer": "HAL 9000"
+        },
+        {
+          "points": 300,
+          "question": "Which sci-fi movie featured a neural interface device called the Matrix?",
+          "options": ["The Matrix", "Blade Runner", "Minority Report"],
+          "answer": "The Matrix"
+        },
+        {
+          "points": 400,
+          "question": "Which retro sci-fi device could transport messages through subspace?",
+          "options": ["Subspace Transmitter", "Quantum Relay", "Stellar Communicator"],
+          "answer": "Subspace Transmitter"
+        },
+        {
+          "points": 400,
+          "question": "What retro sci-fi device was used for personal flight in The Jetsons?",
+          "options": ["Jetpack", "Aero-Board", "Hover Belt"],
+          "answer": "Jetpack"
+        },
+        {
+          "points": 400,
+          "question": "Which movie featured a time-traveling device called the DeLorean?",
+          "options": ["Back to the Future", "Timecop", "The Terminator"],
+          "answer": "Back to the Future"
+        },
+        {
+          "points": 400,
+          "question": "Which retro sci-fi device could clone objects in Star Trek?",
+          "options": ["Replicator", "Holodeck", "Matter Synthesizer"],
+          "answer": "Replicator"
+        },
+        {
+          "points": 600,
+          "question": "What is the name of the weapon used by Ghostbusters to trap ghosts?",
+          "options": ["Proton Pack", "Ghost Trap", "Specter Catcher"],
+          "answer": "Proton Pack"
+        },
+        {
+          "points": 600,
+          "question": "Which movie featured a device called the Neuralyzer to erase memories?",
+          "options": ["Men in Black", "Total Recall", "Inception"],
+          "answer": "Men in Black"
+        },
+        {
+          "points": 600,
+          "question": "What retro sci-fi device stored genetic information in Gattaca?",
+          "options": ["DNA Reader", "Genome Scanner", "Genetic Code Identifier"],
+          "answer": "Genome Scanner"
+        },
+        {
+          "points": 800,
+          "question": "Which retro sci-fi device allowed instant 3D printing of food in Star Trek?",
+          "options": ["Replicator", "Synthesizer", "Food Generator"],
+          "answer": "Replicator"
+        },
+        {
+          "points": 800,
+          "question": "Which retro sci-fi device was used in Stargate SG-1 to travel to other worlds?",
+          "options": ["Stargate", "Wormhole Generator", "Hyperjump Gate"],
+          "answer": "Stargate"
+        },
+        {
+          "points": 800,
+          "question": "What was the purpose of the TARDIS in Doctor Who?",
+          "options": ["Time Travel", "Planetary Exploration", "Space Combat"],
+          "answer": "Time Travel"
+        },
+        {
+          "points": 1200,
+          "question": "Which retro sci-fi device enabled people to read minds in Total Recall?",
+          "options": ["Mind Probe", "Rekall Implant", "Neural Scanner"],
+          "answer": "Neural Scanner"
+        },
+        {
+          "points": 1200,
+          "question": "Which retro sci-fi movie introduced the concept of a light cycle for racing?",
+          "options": ["Tron", "Blade Runner", "The Matrix"],
+          "answer": "Tron"
+        },
+        {
+          "points": 1200,
+          "question": "Which movie introduced the Omni device for time-traveling adventures?",
+          "options": ["Voyagers!", "Timecop", "12 Monkeys"],
+          "answer": "Voyagers!"
+        }
+      ]
+    },
+          {
+      "name": "Early Mobile Tech",
+      "questions": [
+        {
+          "points": 100,
+          "question": "What was the name of the first commercially available mobile phone?",
+          "options": ["Motorola DynaTAC 8000X", "Nokia 1011", "Samsung SH-100"],
+          "answer": "Motorola DynaTAC 8000X"
+        },
+        {
+          "points": 100,
+          "question": "Which company introduced the first SMS text message?",
+          "options": ["Vodafone", "Nokia", "Motorola"],
+          "answer": "Vodafone"
+        },
+        {
+          "points": 100,
+          "question": "What year was the first mobile phone call made?",
+          "options": ["1973", "1980", "1991"],
+          "answer": "1973"
+        },
+        {
+          "points": 200,
+          "question": "What was the name of Nokia's first GSM mobile phone?",
+          "options": ["Nokia 1011", "Nokia 3310", "Nokia 9000"],
+          "answer": "Nokia 1011"
+        },
+        {
+          "points": 200,
+          "question": "Which early mobile phone featured the game Snake?",
+          "options": ["Nokia 3310", "Motorola StarTAC", "Sony Ericsson T68i"],
+          "answer": "Nokia 3310"
+        },
+        {
+          "points": 200,
+          "question": "Which company released the first flip phone?",
+          "options": ["Motorola", "Nokia", "Sony Ericsson"],
+          "answer": "Motorola"
+        },
+        {
+          "points": 200,
+          "question": "Which early mobile device combined a PDA and a mobile phone?",
+          "options": ["Palm Pilot", "BlackBerry 850", "IBM Simon"],
+          "answer": "IBM Simon"
+        },
+        {
+          "points": 300,
+          "question": "Which company introduced the first phone with a built-in camera?",
+          "options": ["Sharp", "Nokia", "Motorola"],
+          "answer": "Sharp"
+        },
+        {
+          "points": 300,
+          "question": "What mobile network standard succeeded 2G GSM?",
+          "options": ["3G", "CDMA", "4G LTE"],
+          "answer": "3G"
+        },
+        {
+          "points": 300,
+          "question": "What was the name of the first BlackBerry smartphone?",
+          "options": ["BlackBerry 5810", "BlackBerry 850", "BlackBerry Bold"],
+          "answer": "BlackBerry 5810"
+        },
+        {
+          "points": 400,
+          "question": "Which phone popularized the use of polyphonic ringtones?",
+          "options": ["Nokia 7650", "Samsung SGH-T100", "Motorola Razr"],
+          "answer": "Samsung SGH-T100"
+        },
+        {
+          "points": 400,
+          "question": "What was the first mobile phone to feature predictive text (T9)?",
+          "options": ["Nokia 3210", "Motorola StarTAC", "Ericsson A1018"],
+          "answer": "Nokia 3210"
+        },
+        {
+          "points": 400,
+          "question": "Which phone was marketed as the first 'fashion phone'?",
+          "options": ["Motorola Razr", "Nokia 7280", "Sony Ericsson T68i"],
+          "answer": "Nokia 7280"
+        },
+        {
+          "points": 400,
+          "question": "Which early smartphone was the first to feature a touch screen?",
+          "options": ["IBM Simon", "Palm Treo 600", "Sony Ericsson P800"],
+          "answer": "IBM Simon"
+        },
+        {
+          "points": 600,
+          "question": "What year did the first BlackBerry device launch?",
+          "options": ["1999", "2001", "1995"],
+          "answer": "1999"
+        },
+        {
+          "points": 600,
+          "question": "What was the name of the first mobile phone to offer MP3 playback?",
+          "options": ["Samsung SPH-M100", "Nokia 5510", "Motorola E398"],
+          "answer": "Samsung SPH-M100"
+        },
+        {
+          "points": 600,
+          "question": "Which company introduced the T-Mobile Sidekick, a popular messaging device?",
+          "options": ["Danger Inc.", "Nokia", "Sony Ericsson"],
+          "answer": "Danger Inc."
+        },
+        {
+          "points": 800,
+          "question": "Which phone featured the first front-facing camera for video calls?",
+          "options": ["Sony Ericsson Z1010", "Nokia 7650", "Motorola Razr V3"],
+          "answer": "Sony Ericsson Z1010"
+        },
+        {
+          "points": 800,
+          "question": "Which early smartphone was the first to feature GPS navigation?",
+          "options": ["BlackBerry 8800", "Nokia N95", "Palm Treo 650"],
+          "answer": "Nokia N95"
+        },
+        {
+          "points": 800,
+          "question": "Which phone was the first to offer full-color screen displays?",
+          "options": ["Siemens S10", "Nokia 9210", "Motorola StarTAC Color"],
+          "answer": "Siemens S10"
+        },
+        {
+          "points": 1200,
+          "question": "What was the first phone to feature internet browsing?",
+          "options": ["Nokia 9000 Communicator", "BlackBerry 5810", "Sony Ericsson P800"],
+          "answer": "Nokia 9000 Communicator"
+        },
+        {
+          "points": 1200,
+          "question": "What was the first mobile network standard introduced?",
+          "options": ["1G", "2G GSM", "AMPS"],
+          "answer": "AMPS"
+        },
+        {
+          "points": 1200,
+          "question": "Which early mobile phone had the first physical QWERTY keyboard?",
+          "options": ["BlackBerry 850", "Nokia 9000", "Motorola PageWriter"],
+          "answer": "BlackBerry 850"
+        }
+      ]
+    },
+          {
+      "name": "Classic Cameras",
+      "questions": [
+        {
+          "points": 100,
+          "question": "Which company introduced the first instant camera?",
+          "options": ["Polaroid", "Kodak", "Fujifilm"],
+          "answer": "Polaroid"
+        },
+        {
+          "points": 100,
+          "question": "What was the name of Kodak’s first consumer-grade camera?",
+          "options": ["Brownie", "Instamatic", "Retina"],
+          "answer": "Brownie"
+        },
+        {
+          "points": 100,
+          "question": "Which camera was famous for its interchangeable lenses in the 1950s?",
+          "options": ["Leica M3", "Nikon F", "Canon AE-1"],
+          "answer": "Leica M3"
+        },
+        {
+          "points": 200,
+          "question": "Which film format was introduced with Kodak’s Instamatic cameras?",
+          "options": ["126 film", "35mm film", "120 roll film"],
+          "answer": "126 film"
+        },
+        {
+          "points": 200,
+          "question": "What camera was nicknamed 'The Brick' due to its rugged design?",
+          "options": ["Argus C3", "Kodak Retina", "Zeiss Ikon Contax"],
+          "answer": "Argus C3"
+        },
+        {
+          "points": 200,
+          "question": "Which instant camera brand was revived in the 2000s by The Impossible Project?",
+          "options": ["Polaroid", "Kodak", "Minolta"],
+          "answer": "Polaroid"
+        },
+        {
+          "points": 200,
+          "question": "Which camera introduced autofocus in 1977?",
+          "options": ["Konica C35 AF", "Nikon F3", "Canon AE-1"],
+          "answer": "Konica C35 AF"
+        },
+        {
+          "points": 300,
+          "question": "Which camera was the first single-lens reflex (SLR) model?",
+          "options": ["Exakta Kine", "Canon F-1", "Nikon F"],
+          "answer": "Exakta Kine"
+        },
+        {
+          "points": 300,
+          "question": "What Polaroid camera model became a symbol of instant photography?",
+          "options": ["Polaroid SX-70", "Polaroid OneStep", "Polaroid Land Camera"],
+          "answer": "Polaroid SX-70"
+        },
+        {
+          "points": 300,
+          "question": "What was the first digital camera commercially available?",
+          "options": ["Kodak DCS 100", "Sony Mavica", "Canon RC-701"],
+          "answer": "Kodak DCS 100"
+        },
+        {
+          "points": 400,
+          "question": "Which company introduced the first autofocus SLR camera?",
+          "options": ["Minolta", "Canon", "Nikon"],
+          "answer": "Minolta"
+        },
+        {
+          "points": 400,
+          "question": "Which iconic 35mm film camera became popular in the 1980s?",
+          "options": ["Canon AE-1", "Nikon FE", "Olympus OM-1"],
+          "answer": "Canon AE-1"
+        },
+        {
+          "points": 400,
+          "question": "What was the first camera to use a memory card for storage?",
+          "options": ["Fuji DS-1P", "Kodak DCS 100", "Sony Mavica"],
+          "answer": "Fuji DS-1P"
+        },
+        {
+          "points": 400,
+          "question": "What was the name of the Nikon camera used on Apollo space missions?",
+          "options": ["Nikon F", "Nikon SP", "Nikon Photomic"],
+          "answer": "Nikon F"
+        },
+        {
+          "points": 600,
+          "question": "Which medium format camera brand became famous for studio photography?",
+          "options": ["Hasselblad", "Mamiya", "Pentax"],
+          "answer": "Hasselblad"
+        },
+        {
+          "points": 600,
+          "question": "Which 35mm camera featured a titanium body for durability?",
+          "options": ["Nikon F3T", "Canon New F-1", "Leica M6"],
+          "answer": "Nikon F3T"
+        },
+        {
+          "points": 600,
+          "question": "What was the first point-and-shoot camera?",
+          "options": ["Minolta Disc-7", "Canon Sure Shot", "Konica C35"],
+          "answer": "Konica C35"
+        },
+        {
+          "points": 800,
+          "question": "Which digital camera introduced RAW file format for professional photography?",
+          "options": ["Kodak DCS 520", "Canon EOS D2000", "Nikon D1"],
+          "answer": "Nikon D1"
+        },
+        {
+          "points": 800,
+          "question": "What was the first mirrorless camera released?",
+          "options": ["Panasonic Lumix G1", "Sony Alpha 7", "Fujifilm X-T1"],
+          "answer": "Panasonic Lumix G1"
+        },
+        {
+          "points": 800,
+          "question": "Which company pioneered the compact camera market in the 1990s?",
+          "options": ["Canon", "Kodak", "Sony"],
+          "answer": "Canon"
+        },
+        {
+          "points": 1200,
+          "question": "Which camera system was used to photograph the moon landing?",
+          "options": ["Hasselblad 500EL", "Nikon F", "Pentax 6x7"],
+          "answer": "Hasselblad 500EL"
+        },
+        {
+          "points": 1200,
+          "question": "Which company developed the first digital SLR camera?",
+          "options": ["Kodak", "Canon", "Nikon"],
+          "answer": "Kodak"
+        },
+        {
+          "points": 1200,
+          "question": "What camera used the APS film format introduced in the 1990s?",
+          "options": ["Canon Elph", "Nikon N70", "Pentax K1000"],
+          "answer": "Canon Elph"
+        }
+      ]
+    },
+          {
+      "name": "Vintage Home Appliances",
+      "questions": [
+        {
+          "points": 100,
+          "question": "What kitchen appliance became popular in the 1950s for heating food quickly?",
+          "options": ["Microwave", "Toaster Oven", "Pressure Cooker"],
+          "answer": "Microwave"
+        },
+        {
+          "points": 100,
+          "question": "Which appliance was known for spinning records to dry clothes?",
+          "options": ["Clothes Dryer", "Spin Dryer", "Washing Machine"],
+          "answer": "Spin Dryer"
+        },
+        {
+          "points": 100,
+          "question": "Which appliance was called the 'icebox' before refrigerators?",
+          "options": ["Cooler", "Ice Chest", "Icebox"],
+          "answer": "Icebox"
+        },
+        {
+          "points": 200,
+          "question": "Which brand is famous for introducing the first automatic washing machine?",
+          "options": ["Maytag", "Whirlpool", "GE"],
+          "answer": "Maytag"
+        },
+        {
+          "points": 200,
+          "question": "What small appliance popularized blended drinks in the 1940s?",
+          "options": ["Blender", "Juicer", "Mixer"],
+          "answer": "Blender"
+        },
+        {
+          "points": 200,
+          "question": "Which vacuum cleaner introduced disposable bags in the 1920s?",
+          "options": ["Hoover", "Electrolux", "Bissell"],
+          "answer": "Hoover"
+        },
+        {
+          "points": 200,
+          "question": "What was the name of the retro iron that used coal to heat?",
+          "options": ["Flat Iron", "Box Iron", "Coal Iron"],
+          "answer": "Box Iron"
+        },
+        {
+          "points": 300,
+          "question": "Which appliance introduced the first ice-making technology for homes?",
+          "options": ["Refrigerator", "Freezer", "Ice Chest"],
+          "answer": "Refrigerator"
+        },
+        {
+          "points": 300,
+          "question": "What was the name of the first countertop dishwasher?",
+          "options": ["Dishmaster", "KitchenAid KDS-14", "GE Sink-Dishwasher"],
+          "answer": "Dishmaster"
+        },
+        {
+          "points": 300,
+          "question": "Which appliance revolutionized morning breakfast in the 1920s?",
+          "options": ["Toaster", "Coffee Maker", "Egg Boiler"],
+          "answer": "Toaster"
+        },
+        {
+          "points": 400,
+          "question": "What retro appliance used oscillating fans for cooling homes in the 1920s?",
+          "options": ["Electric Fan", "Cooler Box", "Ventilation Unit"],
+          "answer": "Electric Fan"
+        },
+        {
+          "points": 400,
+          "question": "Which company introduced the first electric sewing machine?",
+          "options": ["Singer", "Pfaff", "Brother"],
+          "answer": "Singer"
+        },
+        {
+          "points": 400,
+          "question": "Which appliance gained popularity for reheating leftovers in the 1960s?",
+          "options": ["Microwave", "Toaster Oven", "Pressure Cooker"],
+          "answer": "Microwave"
+        },
+        {
+          "points": 400,
+          "question": "What was the primary purpose of an electric mangle?",
+          "options": ["Ironing", "Washing Clothes", "Drying Clothes"],
+          "answer": "Ironing"
+        },
+        {
+          "points": 600,
+          "question": "What vintage appliance was a precursor to modern coffee makers?",
+          "options": ["Percolator", "French Press", "Vacuum Coffee Maker"],
+          "answer": "Percolator"
+        },
+        {
+          "points": 600,
+          "question": "What was the name of the first automatic bread machine introduced in the 1980s?",
+          "options": ["Panasonic SD-BT2", "Cuisinart Breadman", "Zojirushi BBCC"],
+          "answer": "Panasonic SD-BT2"
+        },
+        {
+          "points": 600,
+          "question": "Which retro appliance was popular for keeping food warm at gatherings?",
+          "options": ["Chafing Dish", "Hot Plate", "Electric Warming Tray"],
+          "answer": "Electric Warming Tray"
+        },
+        {
+          "points": 800,
+          "question": "Which vacuum cleaner introduced the ball-joint technology for mobility?",
+          "options": ["Electrolux Model 30", "Hoover Constellation", "Dyson Ball"],
+          "answer": "Hoover Constellation"
+        },
+        {
+          "points": 800,
+          "question": "Which home appliance allowed clothes drying without electricity?",
+          "options": ["Clothesline", "Spin Dryer", "Manual Dryer"],
+          "answer": "Clothesline"
+        },
+        {
+          "points": 800,
+          "question": "Which appliance was the predecessor to modern stovetops?",
+          "options": ["Wood-Burning Stove", "Iron Range", "Coal Range"],
+          "answer": "Wood-Burning Stove"
+        },
+        {
+          "points": 1200,
+          "question": "Which retro appliance was known for preserving food using vacuum technology?",
+          "options": ["Vacuum Sealer", "Icebox", "Canning Machine"],
+          "answer": "Vacuum Sealer"
+        },
+        {
+          "points": 1200,
+          "question": "Which brand introduced the first frost-free refrigerator?",
+          "options": ["Frigidaire", "GE", "Whirlpool"],
+          "answer": "Frigidaire"
+        },
+        {
+          "points": 1200,
+          "question": "What kitchen appliance was popularized by Sunbeam in the 1930s?",
+          "options": ["Stand Mixer", "Electric Griddle", "Toaster"],
+          "answer": "Stand Mixer"
+        }
+      ]
+    },
+          {
+      "name": "Retro Tech Icons",
+      "questions": [
+        {
+          "points": 100,
+          "question": "What device is often called the 'brick phone'?",
+          "options": ["Motorola DynaTAC", "Nokia 3310", "Sony Ericsson T68"],
+          "answer": "Motorola DynaTAC"
+        },
+        {
+          "points": 100,
+          "question": "Which music player popularized portable cassette playback?",
+          "options": ["Sony Walkman", "iPod Classic", "Discman"],
+          "answer": "Sony Walkman"
+        },
+        {
+          "points": 100,
+          "question": "Which retro console featured the game Pong?",
+          "options": ["Atari 2600", "Magnavox Odyssey", "Nintendo Entertainment System"],
+          "answer": "Magnavox Odyssey"
+        },
+        {
+          "points": 200,
+          "question": "Which iconic camera was known for its instant prints?",
+          "options": ["Polaroid", "Kodak", "Canon"],
+          "answer": "Polaroid"
+        },
+        {
+          "points": 200,
+          "question": "Which early computer popularized desktop publishing?",
+          "options": ["Apple Macintosh", "Commodore 64", "IBM PC"],
+          "answer": "Apple Macintosh"
+        },
+        {
+          "points": 200,
+          "question": "Which company introduced the Game Boy handheld console?",
+          "options": ["Nintendo", "Atari", "Sony"],
+          "answer": "Nintendo"
+        },
+        {
+          "points": 200,
+          "question": "Which household gadget revolutionized video recording in the 1980s?",
+          "options": ["VHS Recorder", "Betamax", "LaserDisc"],
+          "answer": "VHS Recorder"
+        },
+        {
+          "points": 300,
+          "question": "What was the name of the first portable CD player by Sony?",
+          "options": ["Discman", "Walkman CD", "Sony CDX"],
+          "answer": "Discman"
+        },
+        {
+          "points": 300,
+          "question": "Which retro device used 'floppy disks' for data storage?",
+          "options": ["IBM PC", "Apple II", "Commodore 64"],
+          "answer": "IBM PC"
+        },
+        {
+          "points": 300,
+          "question": "Which tech gadget introduced SMS texting to the masses?",
+          "options": ["Nokia 1011", "BlackBerry 850", "Motorola StarTAC"],
+          "answer": "Nokia 1011"
+        },
+        {
+          "points": 400,
+          "question": "Which iconic gadget allowed recording live TV in the 2000s?",
+          "options": ["TiVo", "Betamax", "LaserDisc"],
+          "answer": "TiVo"
+        },
+        {
+          "points": 400,
+          "question": "Which retro gaming console introduced the joystick?",
+          "options": ["Atari 2600", "NES", "Sega Genesis"],
+          "answer": "Atari 2600"
+        },
+        {
+          "points": 400,
+          "question": "Which gadget popularized email on the go in the early 2000s?",
+          "options": ["BlackBerry", "Palm Pilot", "Motorola Razr"],
+          "answer": "BlackBerry"
+        },
+        {
+          "points": 400,
+          "question": "Which early tech icon introduced the idea of digital assistants?",
+          "options": ["Palm Pilot", "Apple Newton", "BlackBerry"],
+          "answer": "Apple Newton"
+        },
+        {
+          "points": 600,
+          "question": "Which gaming system introduced the concept of motion-sensing controllers?",
+          "options": ["Nintendo Wii", "Sony PlayStation", "Xbox Kinect"],
+          "answer": "Nintendo Wii"
+        },
+        {
+          "points": 600,
+          "question": "Which device introduced the concept of playlists and portable MP3 playback?",
+          "options": ["iPod", "Sony Walkman", "Creative Nomad"],
+          "answer": "iPod"
+        },
+        {
+          "points": 600,
+          "question": "Which device was the first to feature a capacitive touch screen?",
+          "options": ["Apple iPhone", "IBM Simon", "Palm Pilot"],
+          "answer": "IBM Simon"
+        },
+        {
+          "points": 800,
+          "question": "What was the first digital camera introduced to consumers?",
+          "options": ["Kodak DCS 100", "Canon RC-701", "Sony Mavica"],
+          "answer": "Kodak DCS 100"
+        },
+        {
+          "points": 800,
+          "question": "Which tech icon is synonymous with early dial-up internet access?",
+          "options": ["AOL", "Yahoo!", "Netscape"],
+          "answer": "AOL"
+        },
+        {
+          "points": 800,
+          "question": "Which retro device introduced the first graphical user interface?",
+          "options": ["Xerox Alto", "Macintosh", "IBM PC"],
+          "answer": "Xerox Alto"
+        },
+        {
+          "points": 1200,
+          "question": "Which retro tech gadget introduced email and web browsing to handheld devices?",
+          "options": ["BlackBerry", "Palm Pilot", "Sony Clie"],
+          "answer": "BlackBerry"
+        },
+        {
+          "points": 1200,
+          "question": "Which retro console was the first to use CD-ROM technology?",
+          "options": ["Sega CD", "PlayStation", "Philips CD-i"],
+          "answer": "Philips CD-i"
+        },
+        {
+          "points": 1200,
+          "question": "What was the first gaming console to feature online multiplayer?",
+          "options": ["Dreamcast", "PlayStation 2", "Xbox"],
+          "answer": "Dreamcast"
+        }
+      ]
+    },
+          {
+      "name": "Gaming Consoles Evolution",
+      "questions": [
+        {
+          "points": 100,
+          "question": "Which company introduced the PlayStation?",
+          "options": ["Sony", "Nintendo", "Sega"],
+          "answer": "Sony"
+        },
+        {
+          "points": 100,
+          "question": "What was the first home video game console?",
+          "options": ["Magnavox Odyssey", "Atari 2600", "Nintendo Entertainment System"],
+          "answer": "Magnavox Odyssey"
+        },
+        {
+          "points": 100,
+          "question": "Which Nintendo console was bundled with Super Mario Bros.?",
+          "options": ["NES", "SNES", "GameCube"],
+          "answer": "NES"
+        },
+        {
+          "points": 200,
+          "question": "What was Sega’s last console before exiting the console market?",
+          "options": ["Dreamcast", "Saturn", "Genesis"],
+          "answer": "Dreamcast"
+        },
+        {
+          "points": 200,
+          "question": "Which gaming console introduced the concept of cartridges?",
+          "options": ["Fairchild Channel F", "Atari 2600", "ColecoVision"],
+          "answer": "Fairchild Channel F"
+        },
+        {
+          "points": 200,
+          "question": "Which console was Nintendo's first to use 3D graphics?",
+          "options": ["Nintendo 64", "SNES", "GameCube"],
+          "answer": "Nintendo 64"
+        },
+        {
+          "points": 200,
+          "question": "Which handheld console was the first to have a backlit screen?",
+          "options": ["Game Boy Advance SP", "Atari Lynx", "PSP"],
+          "answer": "Atari Lynx"
+        },
+        {
+          "points": 300,
+          "question": "What was the first console to support Blu-ray discs?",
+          "options": ["PlayStation 3", "Xbox 360", "Wii"],
+          "answer": "PlayStation 3"
+        },
+        {
+          "points": 300,
+          "question": "Which console introduced online gaming with a built-in modem?",
+          "options": ["Sega Dreamcast", "Xbox", "PlayStation 2"],
+          "answer": "Sega Dreamcast"
+        },
+        {
+          "points": 300,
+          "question": "Which console had the infamous 'Red Ring of Death' hardware failure?",
+          "options": ["Xbox 360", "PlayStation 3", "Nintendo Wii"],
+          "answer": "Xbox 360"
+        },
+        {
+          "points": 400,
+          "question": "Which company released the TurboGrafx-16 console?",
+          "options": ["NEC", "Atari", "Nintendo"],
+          "answer": "NEC"
+        },
+        {
+          "points": 400,
+          "question": "Which console launched with a pack-in light gun accessory?",
+          "options": ["NES", "Atari 7800", "Sega Master System"],
+          "answer": "NES"
+        },
+        {
+          "points": 400,
+          "question": "What console introduced motion-controlled gaming?",
+          "options": ["Nintendo Wii", "Xbox Kinect", "PlayStation Move"],
+          "answer": "Nintendo Wii"
+        },
+        {
+          "points": 400,
+          "question": "Which console pioneered touch-screen gaming?",
+          "options": ["Nintendo DS", "Game Boy Advance", "PlayStation Portable"],
+          "answer": "Nintendo DS"
+        },
+        {
+          "points": 600,
+          "question": "What was the first console to feature dual analog sticks?",
+          "options": ["PlayStation DualShock", "Nintendo 64", "Sega Saturn"],
+          "answer": "PlayStation DualShock"
+        },
+        {
+          "points": 600,
+          "question": "Which console popularized VR gaming with the release of the PSVR?",
+          "options": ["PlayStation 4", "Xbox One", "Nintendo Switch"],
+          "answer": "PlayStation 4"
+        },
+        {
+          "points": 600,
+          "question": "Which console first supported downloadable games via broadband?",
+          "options": ["Dreamcast", "Xbox", "PlayStation 2"],
+          "answer": "Dreamcast"
+        },
+        {
+          "points": 800,
+          "question": "Which console introduced achievements for players?",
+          "options": ["Xbox 360", "PlayStation 3", "Wii"],
+          "answer": "Xbox 360"
+        },
+        {
+          "points": 800,
+          "question": "What console was the first to use cartridges with flash storage?",
+          "options": ["Nintendo Switch", "PS Vita", "3DS"],
+          "answer": "Nintendo Switch"
+        },
+        {
+          "points": 800,
+          "question": "What was the first console to feature HD graphics?",
+          "options": ["Xbox 360", "PS3", "Wii"],
+          "answer": "Xbox 360"
+        },
+        {
+          "points": 1200,
+          "question": "Which company introduced the first hybrid console?",
+          "options": ["Nintendo", "Sony", "Sega"],
+          "answer": "Nintendo"
+        },
+        {
+          "points": 1200,
+          "question": "What console introduced gyroscopic motion controls?",
+          "options": ["Nintendo Wii", "PS Vita", "Switch"],
+          "answer": "Nintendo Wii"
+        },
+        {
+          "points": 1200,
+          "question": "What was the first console to offer native 4K gaming?",
+          "options": ["Xbox One X", "PlayStation 4 Pro", "Nintendo Switch"],
+          "answer": "Xbox One X"
+        }
+      ]
+    },
+          {
+      "name": "Old School Office Equipment",
+      "questions": [
+        {
+          "points": 100,
+          "question": "What office device was used to create multiple copies of a document before photocopiers?",
+          "options": ["Mimeograph", "Typewriter", "Dot Matrix Printer"],
+          "answer": "Mimeograph"
+        },
+        {
+          "points": 100,
+          "question": "What was the name of the first mechanical calculator?",
+          "options": ["Arithmometer", "Pascaline", "Abacus"],
+          "answer": "Pascaline"
+        },
+        {
+          "points": 100,
+          "question": "Which type of typewriter used a ball-shaped printing element?",
+          "options": ["IBM Selectric", "Underwood", "Remington"],
+          "answer": "IBM Selectric"
+        },
+        {
+          "points": 200,
+          "question": "Which office machine was known as the 'ditto machine'?",
+          "options": ["Spirit Duplicator", "Mimeograph", "Copier"],
+          "answer": "Spirit Duplicator"
+        },
+        {
+          "points": 200,
+          "question": "What office device used ribbons for printing on paper?",
+          "options": ["Typewriter", "Dot Matrix Printer", "Fax Machine"],
+          "answer": "Typewriter"
+        },
+        {
+          "points": 200,
+          "question": "Which early photocopier was introduced by Xerox in 1959?",
+          "options": ["Xerox 914", "Xerox 6010", "Xerox 5000"],
+          "answer": "Xerox 914"
+        },
+        {
+          "points": 200,
+          "question": "Which office device was used to laminate documents?",
+          "options": ["Thermal Laminator", "Binding Machine", "Heat Sealer"],
+          "answer": "Thermal Laminator"
+        },
+        {
+          "points": 300,
+          "question": "Which calculator brand became famous for office and scientific use in the 70s?",
+          "options": ["Texas Instruments", "Casio", "HP"],
+          "answer": "Texas Instruments"
+        },
+        {
+          "points": 300,
+          "question": "What office device was used to punch holes in paper for filing?",
+          "options": ["Hole Punch", "Binder", "Stapler"],
+          "answer": "Hole Punch"
+        },
+        {
+          "points": 300,
+          "question": "What device was used for sending images and text over phone lines?",
+          "options": ["Fax Machine", "Teletype", "Scanner"],
+          "answer": "Fax Machine"
+        },
+        {
+          "points": 400,
+          "question": "What type of early printer used a series of dots to form text and images?",
+          "options": ["Dot Matrix Printer", "Line Printer", "Thermal Printer"],
+          "answer": "Dot Matrix Printer"
+        },
+        {
+          "points": 400,
+          "question": "What was the name of the first commercially successful word processor?",
+          "options": ["WordStar", "Wang 1200", "Microsoft Word"],
+          "answer": "Wang 1200"
+        },
+        {
+          "points": 400,
+          "question": "What office device was used to securely destroy documents?",
+          "options": ["Shredder", "Laminator", "Binder"],
+          "answer": "Shredder"
+        },
+        {
+          "points": 400,
+          "question": "What type of telephone device was used for quick office communications?",
+          "options": ["Intercom", "PBX System", "Rotary Phone"],
+          "answer": "Intercom"
+        },
+        {
+          "points": 600,
+          "question": "Which office machine was used to bind pages together with plastic combs?",
+          "options": ["Comb Binder", "Laminator", "Ring Binder"],
+          "answer": "Comb Binder"
+        },
+        {
+          "points": 600,
+          "question": "What early office computer was marketed by IBM in 1981?",
+          "options": ["IBM PC", "IBM Selectric", "IBM 5150"],
+          "answer": "IBM 5150"
+        },
+        {
+          "points": 600,
+          "question": "Which machine allowed offices to send typed messages over telegraph lines?",
+          "options": ["Teletype", "Fax Machine", "Telegraph"],
+          "answer": "Teletype"
+        },
+        {
+          "points": 800,
+          "question": "Which device used carbon paper to create duplicates of documents?",
+          "options": ["Typewriter", "Spirit Duplicator", "Carbon Copy Machine"],
+          "answer": "Typewriter"
+        },
+        {
+          "points": 800,
+          "question": "What retro device was used to label folders and documents?",
+          "options": ["Label Maker", "Embosser", "Typewriter"],
+          "answer": "Label Maker"
+        },
+        {
+          "points": 800,
+          "question": "Which device was used for storing and organizing office data manually?",
+          "options": ["Rolodex", "File Cabinet", "Ledger"],
+          "answer": "Rolodex"
+        },
+        {
+          "points": 1200,
+          "question": "What office machine introduced the concept of 'just-in-time' printing?",
+          "options": ["Laser Printer", "Dot Matrix Printer", "Line Printer"],
+          "answer": "Laser Printer"
+        },
+        {
+          "points": 1200,
+          "question": "Which retro office device allowed audio dictation and playback?",
+          "options": ["Dictaphone", "Tape Recorder", "Intercom"],
+          "answer": "Dictaphone"
+        },
+        {
+          "points": 1200,
+          "question": "Which 1970s computer was specifically marketed as an office tool?",
+          "options": ["Wang 2200", "Altair 8800", "Apple II"],
+          "answer": "Wang 2200"
+        }
+      ]
+    },
+          {
+      "name": "Pioneering Internet Platforms",
+      "questions": [
+        {
+          "points": 100,
+          "question": "Which platform popularized instant messaging in the late 1990s?",
+          "options": ["AOL Instant Messenger", "ICQ", "MSN Messenger"],
+          "answer": "AOL Instant Messenger"
+        },
+        {
+          "points": 100,
+          "question": "What was the first widely used web browser?",
+          "options": ["Netscape Navigator", "Internet Explorer", "WorldWideWeb"],
+          "answer": "Netscape Navigator"
+        },
+        {
+          "points": 100,
+          "question": "Which platform was the first popular online auction site?",
+          "options": ["eBay", "Yahoo! Auctions", "Amazon Auctions"],
+          "answer": "eBay"
+        },
+        {
+          "points": 200,
+          "question": "What early search engine was known for the slogan 'What you need, when you need it'?",
+          "options": ["Ask Jeeves", "Yahoo!", "AltaVista"],
+          "answer": "AltaVista"
+        },
+        {
+          "points": 200,
+          "question": "Which social media platform was originally exclusive to college students?",
+          "options": ["Facebook", "MySpace", "Friendster"],
+          "answer": "Facebook"
+        },
+        {
+          "points": 200,
+          "question": "Which early platform popularized blogging?",
+          "options": ["LiveJournal", "Blogger", "Xanga"],
+          "answer": "LiveJournal"
+        },
+        {
+          "points": 200,
+          "question": "What was the name of the first website ever created?",
+          "options": ["info.cern.ch", "worldwideweb.com", "netscape.com"],
+          "answer": "info.cern.ch"
+        },
+        {
+          "points": 300,
+          "question": "Which early platform allowed file sharing through peer-to-peer networks?",
+          "options": ["Napster", "Kazaa", "LimeWire"],
+          "answer": "Napster"
+        },
+        {
+          "points": 300,
+          "question": "What was the first email service offered by Microsoft?",
+          "options": ["Hotmail", "Outlook", "Exchange"],
+          "answer": "Hotmail"
+        },
+        {
+          "points": 300,
+          "question": "Which pioneering internet platform started as an online bookstore?",
+          "options": ["Amazon", "Barnes & Noble", "Books-A-Million"],
+          "answer": "Amazon"
+        },
+        {
+          "points": 400,
+          "question": "Which early streaming service was the precursor to YouTube?",
+          "options": ["RealPlayer", "Metacafe", "DailyMotion"],
+          "answer": "RealPlayer"
+        },
+        {
+          "points": 400,
+          "question": "Which website became the first to offer a free web-based email service?",
+          "options": ["Hotmail", "Gmail", "Yahoo! Mail"],
+          "answer": "Hotmail"
+        },
+        {
+          "points": 400,
+          "question": "What platform introduced the first graphical interface for web browsing?",
+          "options": ["Mosaic", "Netscape", "Internet Explorer"],
+          "answer": "Mosaic"
+        },
+        {
+          "points": 400,
+          "question": "Which early social media site allowed users to list friends in a 'Top 8' feature?",
+          "options": ["MySpace", "Friendster", "Orkut"],
+          "answer": "MySpace"
+        },
+        {
+          "points": 600,
+          "question": "What early messaging platform used the tagline 'You've got mail'?",
+          "options": ["AOL", "MSN", "Yahoo! Messenger"],
+          "answer": "AOL"
+        },
+        {
+          "points": 600,
+          "question": "Which file hosting service pioneered cloud storage in the 2000s?",
+          "options": ["Dropbox", "Google Drive", "Box"],
+          "answer": "Dropbox"
+        },
+        {
+          "points": 600,
+          "question": "Which platform was the first major video conferencing tool?",
+          "options": ["Skype", "Zoom", "Microsoft NetMeeting"],
+          "answer": "Microsoft NetMeeting"
+        },
+        {
+          "points": 800,
+          "question": "Which pioneering platform was an early digital classified site?",
+          "options": ["Craigslist", "Angie's List", "eBay"],
+          "answer": "Craigslist"
+        },
+        {
+          "points": 800,
+          "question": "Which early platform was known for creating web directories?",
+          "options": ["Yahoo!", "Lycos", "AltaVista"],
+          "answer": "Yahoo!"
+        },
+        {
+          "points": 800,
+          "question": "Which platform pioneered user-generated video content?",
+          "options": ["YouTube", "DailyMotion", "Metacafe"],
+          "answer": "YouTube"
+        },
+        {
+          "points": 1200,
+          "question": "Which early chat platform was known for its 'rooms' feature?",
+          "options": ["AOL Chat", "ICQ", "MSN Messenger"],
+          "answer": "AOL Chat"
+        },
+        {
+          "points": 1200,
+          "question": "What platform revolutionized online payments in the early 2000s?",
+          "options": ["PayPal", "Venmo", "Google Wallet"],
+          "answer": "PayPal"
+        },
+        {
+          "points": 1200,
+          "question": "Which platform was known as the first major online encyclopedia?",
+          "options": ["Wikipedia", "Britannica Online", "Encarta"],
+          "answer": "Britannica Online"
+        }
+      ]
+    },
+          {
+      "name": "Early Digital Music Players",
+      "questions": [
+        {
+          "points": 100,
+          "question": "What was the name of Apple's first digital music player?",
+          "options": ["iPod", "iTunes", "Shuffle"],
+          "answer": "iPod"
+        },
+        {
+          "points": 100,
+          "question": "Which file format became synonymous with digital music in the 1990s?",
+          "options": ["MP3", "WAV", "AAC"],
+          "answer": "MP3"
+        },
+        {
+          "points": 100,
+          "question": "Which company released the first portable MP3 player?",
+          "options": ["Saehan", "Apple", "Creative"],
+          "answer": "Saehan"
+        },
+        {
+          "points": 200,
+          "question": "What was the name of the first MP3 player released in 1998?",
+          "options": ["MPMan", "Rio PMP300", "Zune"],
+          "answer": "MPMan"
+        },
+        {
+          "points": 200,
+          "question": "Which MP3 player was introduced by Microsoft in 2006?",
+          "options": ["Zune", "Walkman MP3", "iRiver"],
+          "answer": "Zune"
+        },
+        {
+          "points": 200,
+          "question": "What was the capacity of the original iPod released in 2001?",
+          "options": ["5 GB", "10 GB", "20 GB"],
+          "answer": "5 GB"
+        },
+        {
+          "points": 200,
+          "question": "Which early MP3 player was known for its USB stick-like design?",
+          "options": ["Creative MuVo", "Sony Walkman E-series", "Rio Chiba"],
+          "answer": "Creative MuVo"
+        },
+        {
+          "points": 300,
+          "question": "What was the first digital music player to support FLAC files?",
+          "options": ["iRiver H120", "Rio Karma", "Creative Zen"],
+          "answer": "Rio Karma"
+        },
+        {
+          "points": 300,
+          "question": "Which feature made the Rio PMP300 stand out in the late 90s?",
+          "options": ["32 MB storage", "Expandable memory", "FM radio"],
+          "answer": "Expandable memory"
+        },
+        {
+          "points": 300,
+          "question": "Which MP3 player was nicknamed 'The Podfather' for its role in revolutionizing music?",
+          "options": ["iPod Classic", "Creative Zen", "Zune"],
+          "answer": "iPod Classic"
+        },
+        {
+          "points": 400,
+          "question": "Which early MP3 player featured a hard drive instead of flash storage?",
+          "options": ["Archos Jukebox", "Rio Karma", "iRiver H320"],
+          "answer": "Archos Jukebox"
+        },
+        {
+          "points": 400,
+          "question": "Which company released the Walkman digital music player in the 2000s?",
+          "options": ["Sony", "Apple", "Microsoft"],
+          "answer": "Sony"
+        },
+        {
+          "points": 400,
+          "question": "What was the standout feature of the iRiver H320 MP3 player?",
+          "options": ["Color screen", "Video playback", "Wireless syncing"],
+          "answer": "Color screen"
+        },
+        {
+          "points": 400,
+          "question": "Which MP3 player brand was known for its rugged design and sports focus?",
+          "options": ["SanDisk Sansa", "Sony NWZ", "Creative Zen Stone"],
+          "answer": "SanDisk Sansa"
+        },
+        {
+          "points": 600,
+          "question": "Which MP3 player introduced drag-and-drop file transfers as a key feature?",
+          "options": ["Creative Zen", "Rio Karma", "iPod Shuffle"],
+          "answer": "Creative Zen"
+        },
+        {
+          "points": 600,
+          "question": "Which MP3 player brand included the innovative touch strip navigation system?",
+          "options": ["Zune", "iRiver", "Creative Zen"],
+          "answer": "Zune"
+        },
+        {
+          "points": 600,
+          "question": "What was the first MP3 player to integrate an FM transmitter for car audio?",
+          "options": ["Archos Gmini", "iPod Mini", "Rio Forge"],
+          "answer": "Rio Forge"
+        },
+        {
+          "points": 800,
+          "question": "Which MP3 player was the first to feature wireless connectivity?",
+          "options": ["Zune", "iPod Touch", "iRiver Clix"],
+          "answer": "Zune"
+        },
+        {
+          "points": 800,
+          "question": "Which MP3 player introduced gapless playback for continuous albums?",
+          "options": ["Rio Karma", "iPod Nano", "SanDisk Clip"],
+          "answer": "Rio Karma"
+        },
+        {
+          "points": 800,
+          "question": "Which MP3 player included an OLED display for enhanced visibility?",
+          "options": ["Creative Zen V", "Sony NWZ-A818", "iRiver Clix"],
+          "answer": "iRiver Clix"
+        },
+        {
+          "points": 1200,
+          "question": "Which MP3 player brand introduced the concept of a subscription music service?",
+          "options": ["Zune", "Napster", "Rhapsody"],
+          "answer": "Zune"
+        },
+        {
+          "points": 1200,
+          "question": "Which early MP3 player boasted a built-in equalizer with multiple presets?",
+          "options": ["Rio Karma", "iPod Classic", "Sony NWZ"],
+          "answer": "Rio Karma"
+        },
+        {
+          "points": 1200,
+          "question": "Which MP3 player allowed users to record audio directly from an external source?",
+          "options": ["Archos Jukebox Recorder", "iPod Nano", "Creative Zen Vision"],
+          "answer": "Archos Jukebox Recorder"
+        }
+      ]
+    }
+  ]
+}

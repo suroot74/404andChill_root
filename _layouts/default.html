@@ -34,10 +34,11 @@ layout: compress
 
           <!-- panel -->
           <aside aria-label="Panel" id="panel-wrapper" class="col-xl-3 ps-2 text-muted">
-            <div class="access">
-              {% include_cached update-list.html lang=lang %}
-              {% include_cached trending-tags.html lang=lang %}
-            </div>
+<div class="access">
+  {% assign files = "trending-tags.html,trending-tags1.html,trending-tags2.html" | split: "," %}
+  {% assign random_file = files | sample %}
+  {% include_cached {{ random_file }} lang=lang %}
+</div>
 
             {% for _include in layout.panel_includes %}
               {% assign _include_path = _include | append: '.html' %}
@@ -69,6 +70,9 @@ layout: compress
     </div>
 
     <div id="mask" class="d-none position-fixed w-100 h-100 z-1"></div>
+    
+    <div id="tags" style="display:none;"></div>
+
 
     {% if site.pwa.enabled %}
       {% include_cached notification.html lang=lang %}

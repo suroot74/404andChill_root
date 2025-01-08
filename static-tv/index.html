@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+            name="description"
+            content="Relive the hypnotic hum of endless TV static, a comforting chaos that takes you back to a simpler, analog world. Experience the nostalgia of analog-era randomness and retro vibes." />
+        <meta
+            name="keywords"
+            content="Channel 404, retro TV static, analog nostalgia, 90s vibes, TV glitches, vintage static, hypnotic chaos, comforting chaos, analog aesthetic" />
+        <meta name="author" content="Your Name or Brand" />
+        <meta property="og:title" content="Channel 404 - Nostalgia in Static" />
+        <meta
+            property="og:description"
+            content="Immerse yourself in the comforting chaos of endless TV static. A nostalgic journey to a simpler, analog world of hypnotic hums and randomness." />
+        <meta property="og:image" content="https://404andchill.com/og.jpg" />
+        <meta property="og:url" content="https://404andchill.com/channel-404" />
+        <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Channel 404 - Nostalgia in Static" />
+        <meta
+            name="twitter:description"
+            content="Dive into the comforting chaos of endless TV static and relive a simpler, analog era with retro aesthetics." />
+        <meta name="twitter:image" content="https://404andchill.com/og.jpg" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Channel 404 - Nostalgia in Static</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Monofett&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="static-tv.css" />
+    </head>
+    <body>
+        <div class="tv-container">
+            <div class="tv-static"></div>
+            <div class="tv-message">NO SIGNAL</div>
+            <button
+                id="play-button"
+                style="
+                    position: absolute;
+                    top: 90%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    padding: 10px 20px;
+                    font-size: 1.2em;
+                    color: lime;
+                    background: black;
+                    border: 2px solid lime;
+                    border-radius: 5px;
+                    cursor: pointer;
+                ">
+                Play Sound
+            </button>
+        </div>
+
+        <audio id="static-sound" loop>
+            <source src="static-sound.mp3" type="audio/mpeg" />
+            Your browser does not support the audio element.
+        </audio>
+
+        <footer>
+            <nav>
+                <a href="/">Back to 404 and Chill - Your Retro Culture Fix</a>
+            </nav>
+            <!-- If you're here reading this, you're either lost or one of us. Welcome to the nerd zone. -->
+        </footer>
+
+        <script>
+            const playButton = document.getElementById("play-button");
+            const audio = document.getElementById("static-sound");
+            const messages = [
+                "NO SIGNAL",
+                "It’s Just Made For You",
+                "Fuckin A",
+                "sweet",
+                "STILL NO SIGNAL",
+                "Know what I mean Vern?",
+                "Your fresh breath goes on and on",
+                "TRY MOVING THE ANTENNA",
+                "I don't wanna grow up",
+                "The Real Thing",
+                "PUT FOIL ON THE ANTENNA"
+            ];
+            const tvMessage = document.querySelector(".tv-message");
+
+            const randomInterval = () => Math.floor(Math.random() * 20000) + 20000; // 20 to 40 seconds
+
+            const updateMessage = () => {
+                const randomMessage = messages[Math.floor(Math.random() * messages.length)];
+                tvMessage.textContent = randomMessage;
+                tvMessage.style.opacity = 1;
+                setTimeout(() => {
+                    tvMessage.style.opacity = 0;
+                }, 5000); // Visible for 5 seconds
+                setTimeout(updateMessage, randomInterval());
+            };
+
+            setTimeout(updateMessage, randomInterval());
+
+            playButton.addEventListener("click", () => {
+                audio.play();
+                playButton.textContent = "Static Mode: ON";
+                playButton.style.opacity = "0.8";
+            });
+
+            document.addEventListener("keydown", (e) => {
+                if (e.ctrlKey && e.key === "s") {
+                    alert("Static is life. You can’t save it.");
+                }
+            });
+        </script>
+        <script data-goatcounter="https://404andchill.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+    </body>
+</html>

@@ -1,16 +1,50 @@
 ---
+---
 
-@use 'main
-{%- if jekyll.environment == 'production' -%}
+@use "main
+{%- if jekyll.environment == " production " -%}
   .bundle
 {%- endif -%}
-';
+";
 
 /* append your custom style below */
 
+/* Style the form container */
+form.form-group {
+  background-color: #f8f9fa; /* Light background */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Input and Textarea Fields */
+form .form-control {
+  border: 1px solid #ced4da; /* Light border */
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+/* Focused Input/Textarea */
+form .form-control:focus {
+  border-color: #007bff; /* Match theme primary color */
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+/* Submit Button */
+form .btn-primary {
+  background-color: #007bff; /* Chirpy's primary color */
+  border: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+form .btn-primary:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+
 .site-subtitle {
-  text-align: justify !important;
-  hyphens: auto!important ;
+  text-align: justify;
+  hyphens: auto;
   color: #ccc !important;
 }
 
@@ -19,10 +53,10 @@
 }
 
 .site-title {
-  color: #fff !important;
-  text-shadow: 
-    0 0 8px rgba(255, 20, 147, 0.8), 
-    0 0 16px rgba(138, 43, 226, 0.6);
+  color: white !important;
+  text-shadow:
+    0 0 8px rgba(255, 20, 147, 0.8),
+    /* Pink glow */ 0 0 16px rgba(138, 43, 226, 0.6); /* Purple glow */
 }
 
 time {
@@ -38,10 +72,10 @@ time {
   max-width: 150px;
   border-radius: 8px;
   transition: transform 0.3s ease;
+}
 
-  &:hover {
-    transform: scale(1.1);
-  }
+.footer-badge img:hover {
+  transform: scale(1.1);
 }
 
 .fa-calendar {
@@ -52,43 +86,47 @@ time {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
+  justify-content: center;
 }
 
 .image-item {
   text-align: center;
+}
 
-  a {
-    text-decoration: none;
-    color: inherit;
-  }
+.image-item a {
+  text-decoration: none;
+  color: inherit;
+}
 
-  img {
-    max-width: 200px;
-    height: auto;
-    border-radius: 8px;
-    transition: transform 0.3s ease;
+/* Adjust image size */
+.image-item img {
+  max-width: 200px; /* Set a fixed maximum width */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
 
-    &:hover {
-      transform: scale(1.05);
-    }
-  }
+.image-item img:hover {
+  transform: scale(1.05); /* Slight zoom on hover */
+}
 
-  .caption {
-    margin-top: 8px;
-    text-transform: uppercase;
-    font-size: 0.7rem;
-    font-weight: bold;
-  }
+.image-item .caption {
+  margin-top: 8px;
+  text-transform: uppercase;
+  font-size: .7rem;
+  font-weight: bold;
 }
 
 .banner-container {
   text-align: center;
-
-  img {
-    max-width: 100%;
-    height: auto;
-    cursor: default;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  }
+  
 }
+
+.banner-container img {
+  max-width: 100%;
+  cursor: default; /* Ensures the cursor does not indicate interactivity */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px; /* Optional: Rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Shadow effect */
+}
+

@@ -1,0 +1,296 @@
+/* General Body Styling */
+body {
+    font-family: "Georgia", serif;
+    background: #2d1b43;
+    color: #f3e8ff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    position: relative;
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("./assets/static1.gif");
+    background-size: cover;
+    opacity: 0.05;
+    z-index: -1;
+    animation: changeBackground 60s infinite;
+}
+
+/* Header Styling */
+header {
+    margin-bottom: 10px; /* Reduced space between header and game board */
+}
+
+header h1 {
+    margin: 0; /* Removes default margin around the heading */
+    padding: 10px 0; /* Adds precise padding */
+    animation: glitch 1.5s infinite;
+    color: #f3e8ff;
+}
+
+/* Gameplay Area */
+#quiz-board {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 80%;
+    max-width: 1000px;
+    margin: auto;
+    flex-grow: 1; /* Allow it to grow to fill available space */
+    padding: 30px;
+    background: #241235;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+/* Ensure consistent height for all columns */
+.quiz-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    height: 100%; /* Ensures uniform height */
+}
+
+/* Category Headers */
+.quiz-column h3 {
+    color: #d6b4ff;
+    font-size: 1.4rem;
+    text-shadow: 0 0 10px #d6b4ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 60px; /* Consistent header height to align buttons */
+}
+
+/* Quiz Box */
+.quiz-box {
+    background: #381b4d;
+    color: #d6b4ff;
+    border: 2px solid #d6b4ff;
+    border-radius: 8px;
+    padding: 30px; /* Noticeably larger padding for bigger buttons */
+    text-align: center;
+    cursor: pointer;
+    text-shadow: 0 0 10px #d6b4ff;
+    transition: all 0.3s ease;
+    width: 80%; /* Almost full width of the column */
+    font-size: 1.5rem; /* Increased font size for better readability */
+    margin: 10px 0; /* Adds space between buttons */
+}
+
+.quiz-box:hover {
+    background: #4c2660;
+    border-color: #f3e8ff;
+    transform: scale(1.1); /* Slightly larger hover effect for emphasis */
+}
+
+/* Modal Styling */
+#question-modal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #241235;
+    border: 2px solid #d6b4ff;
+    border-radius: 12px;
+    box-shadow: 0 0 30px #d6b4ff;
+    width: 80%;
+    max-width: 600px;
+    z-index: 1000;
+}
+
+.modal-content {
+    padding: 20px;
+    color: #f3e8ff;
+}
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 1.5rem;
+    color: #f3e8ff;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.close-button:hover {
+    transform: scale(1.2);
+    color: #d6b4ff;
+}
+
+.answer-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.answer-button {
+    background: #381b4d;
+    color: #d6b4ff;
+    border: 2px solid #d6b4ff;
+    border-radius: 8px;
+    padding: 10px 15px;
+    text-align: center;
+    cursor: pointer;
+    text-shadow: 0 0 10px #d6b4ff;
+    transition: all 0.3s ease;
+}
+
+.answer-button:hover {
+    background: #4c2660;
+    border-color: #f3e8ff;
+    transform: scale(1.05);
+}
+
+#question-modal.visible {
+    display: block;
+}
+
+.quiz-box.answered {
+    background: #2a193d;
+    color: #7a6b85;
+    cursor: not-allowed;
+    text-shadow: none;
+}
+
+/* Footer Styling */
+footer {
+    margin-top: 10px; /* Reduced space above the footer */
+    padding-top: 5px; /* Adds precise padding */
+}
+
+/* Glitch Effect for Header */
+@keyframes glitch {
+    0% {
+        text-shadow: 2px 2px #ff00ff;
+    }
+    25% {
+        text-shadow: -2px -2px #00ffff;
+    }
+    50% {
+        text-shadow: 2px -2px #ffff00;
+    }
+    75% {
+        text-shadow: -2px 2px #ff0000;
+    }
+    100% {
+        text-shadow: 2px 2px #ff00ff;
+    }
+}
+
+/* Flicker Effect for Unanswered Boxes */
+@keyframes flicker {
+    0%,
+    19%,
+    21%,
+    23%,
+    25%,
+    54%,
+    56%,
+    100% {
+        background-color: #381b4d;
+    }
+    20%,
+    24%,
+    55% {
+        background-color: #4c2660;
+    }
+}
+
+/* Rotating Backgrounds */
+@keyframes changeBackground {
+    0% {
+        background-image: url("./assets/static1.gif");
+    }
+    50% {
+        background-image: url("./assets/static2.gif");
+    }
+    100% {
+        background-image: url("./assets/static3.gif");
+    }
+}
+
+/* Modal Animation */
+@keyframes modalFadeIn {
+    from {
+        opacity: 0;
+        transform: translate(-50%, -60%);
+    }
+    to {
+        opacity: 1;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@keyframes modalFadeOut {
+    from {
+        opacity: 1;
+        transform: translate(-50%, -50%);
+    }
+    to {
+        opacity: 0;
+        transform: translate(-50%, -60%);
+    }
+}
+
+#question-modal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #241235;
+    border: 2px solid #d6b4ff;
+    border-radius: 12px;
+    box-shadow: 0 0 30px #d6b4ff;
+    width: 80%;
+    max-width: 600px;
+    z-index: 1000;
+    opacity: 0; /* Ensure modal is hidden initially */
+}
+
+#question-modal.visible {
+    display: block;
+    animation: modalFadeIn 0.3s forwards; /* Entry animation */
+}
+
+#question-modal.closing {
+    animation: modalFadeOut 0.3s forwards; /* Exit animation */
+}
+
+/* Responsive Layout */
+@media (max-width: 768px) {
+    #quiz-board {
+        grid-template-columns: repeat(2, 1fr); /* Two columns on smaller screens */
+        gap: 15px;
+    }
+
+    .quiz-box {
+        padding: 20px; /* Slightly smaller buttons */
+        font-size: 1.2rem; /* Adjust text size */
+    }
+}
+
+@media (max-width: 480px) {
+    #quiz-board {
+        grid-template-columns: 1fr; /* One column on very small screens */
+    }
+
+    .quiz-box {
+        padding: 15px; /* Further reduce button size */
+        font-size: 1rem;
+    }
+}
