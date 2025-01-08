@@ -21,8 +21,8 @@ description: >- # used by seo meta and the atom feed
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
-URL: "https://404andchill.com"
-baseurl: "/"
+url: "https://404andchill.com"
+baseurl: "/"  # Use "/repo-name" if deploying to a subdirectory
 
 github:
   username: suroot74 # change to your GitHub username
