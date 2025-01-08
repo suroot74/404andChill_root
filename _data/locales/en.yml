@@ -12,15 +12,14 @@ tabs:
   # format: <filename_without_extension>: <value>
   home: Home
   categories: Categories
-  tags: Tags
-  archives: Archives
   about: About
-
+  moar: Moar
+  
 # the text displayed in the search bar & search results
 search:
   hint: search
   cancel: Cancel
-  no_results: Oops! No results found.
+  no_results: "No results found."
 
 panel:
   lastmod: Recently Updated
