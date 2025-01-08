@@ -45,13 +45,13 @@ jobs:
           bundler-cache: true
 
       - name: Build site
-        run: bundle exec jekyll b -d "_site${{ steps.pages.outputs.base_path }}" --url "https://404andchill.com"
+        run: bundle exec jekyll build -d "_site${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: "production"
 
-      # Optional debugging step
-      - name: Debug _config.yml
-        run: cat _config.yml
+      # Optional: Debug directory structure
+      - name: Debug directory structure
+        run: ls -R
 
       - name: Check Jekyll site
         run: bundle exec jekyll doctor
