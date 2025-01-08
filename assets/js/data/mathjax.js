@@ -1,5 +1,5 @@
 ---
-layout: compress
+layout: default
 # WARNING: Don't use '//' to comment out code, use '{% comment %}' and '{% endcomment %}' instead.
 ---
 

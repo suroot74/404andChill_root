@@ -1,5 +1,5 @@
 ---
-layout: compress
+layout: default
 ---
 
 <!DOCTYPE html>
@@ -37,7 +37,7 @@ layout: compress
 <div class="access">
   {% assign files = "trending-tags.html,trending-tags1.html,trending-tags2.html" | split: "," %}
   {% assign random_file = files | sample %}
-  {% include_cached {{ random_file }} lang=lang %}
+  {% include  {{ random_file }} lang=lang %}
 </div>
 
             {% for _include in layout.panel_includes %}
@@ -55,11 +55,11 @@ layout: compress
               {% include {{ _include_path }} lang=lang %}
             {% endfor %}
 
-            {% include_cached footer.html lang=lang %}
+            {% include footer.html lang=lang %}
           </div>
         </div>
 
-        {% include_cached search-results.html lang=lang %}
+        {% include search-results.html lang=lang %}
       </div>
 
       <aside aria-label="Scroll to Top">
@@ -75,7 +75,7 @@ layout: compress
 
 
     {% if site.pwa.enabled %}
-      {% include_cached notification.html lang=lang %}
+      {% include notification.html lang=lang %}
     {% endif %}
 
     <!-- Embedded scripts -->

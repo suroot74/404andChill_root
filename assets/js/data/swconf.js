@@ -1,5 +1,5 @@
 ---
-layout: compress
+layout: default
 permalink: '/:path/swconf.js'
 # Note that this file will be fetched by the ServiceWorker, so it will not be cached.
 ---
