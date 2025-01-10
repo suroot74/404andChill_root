@@ -148,6 +148,8 @@ pwa:
       # - "/example"  # URLs match `<SITE_URL>/example/*` will not be cached by the PWA
 
 paginate: 10
+paginate_path: "/page:num/" # Path for paginated pages
+
 
 # ------------ The following options are not recommended to be modified ------------------
 
@@ -190,6 +192,12 @@ defaults:
       layout: page
       permalink: /:title/
 
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
+
 sass:
   style: compressed
 
@@ -206,11 +214,17 @@ exclude:
   - "*.gem"
   - "*.gemspec"
   - docs
+  - Gemfile
+  - Gemfile.lock
   - tools
   - README.md
   - LICENSE
+  - node_modules
   - purgecss.js
   - rollup.config.js
+  - vendor
+  - .sass-cache
+  - .jekyll-cache
   - "package*.json"
 
 jekyll-archives:
