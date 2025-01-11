@@ -26,6 +26,10 @@ Who doesn’t miss staring at a screen of grainy white noise, wondering if alien
 <a href="/vhs-simulator" target="_blank">Authentic VHS Simulator →</a>  
 Remember the magic of tracking lines and fuzzy frames? No? Well, here’s a chance to experience it anyway. It’s as authentic as your nostalgia demands.
 
+<a href="/ascii-art" target="_blank">CTRL+ART+HISTORY →</a>  
+Remember the magic of tracking lines and fuzzy frames? No? Well, here’s a chance to experience it anyway. It’s as authentic as your nostalgia demands.
+
+
 <h3>Other Places</h3>
 <ul>
 <li><a href="http://textfiles.com/" target="_blank">textfiles.com →</a></li>
