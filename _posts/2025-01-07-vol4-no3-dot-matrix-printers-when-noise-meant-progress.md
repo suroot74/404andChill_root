@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Vol. 3, No. 2: Dot Matrix Printers - When Noise Meant Progress"
+title: "Vol. 4, No. 3: Dot Matrix Printers - When Noise Meant Progress"
 description: "Revisiting the whirring, clattering marvels of dot matrix printers and their role in shaping the early days of personal and office computing."
 keywords: [Dot matrix printers, retro technology, 1980s computers, Gen X, nostalgia]
 date: 2025-01-07 17:00:00 -0500
