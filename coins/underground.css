@@ -1,0 +1,55 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: #121212;
+  font-family: monospace;
+}
+
+#game-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 90vh;
+  box-sizing: border-box;
+  background: linear-gradient(#e66465, #9198e5);
+}
+
+#game-screen {
+  width: 90%;
+  height: 90%;
+  background-color: #121212;
+  border: 2px solid #ff007f;
+  border-radius: 8px;
+  filter: drop-shadow(0 0 0.75rem crimson);
+}
+
+#links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  text-align: center;
+  color: #ffff00;
+  font-family: monospace;
+}
+
+#links a {
+  color: #ffff00;
+  text-decoration: none;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+#links a:hover {
+  color: #ff007f;
+}
+
+h1,
+h2,
+#game-title {
+  font-family: 'Tourney', sans-serif;
+}
