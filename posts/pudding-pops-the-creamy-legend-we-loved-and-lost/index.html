@@ -218,6 +218,33 @@
   
 
   
+    
+        
+          <!-- Display GoatCounter pageviews -->
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const pv = document.getElementById('pageviews');
+
+    if (pv !== null) {
+      const uri = location.pathname.replace(/\/$/, '');
+      const url = `https://404andchill.goatcounter.com/counter/${encodeURIComponent(uri)}.json`;
+
+      fetch(url)
+        .then((response) => response.json())
+        .then((data) => {
+          const count = data.count.replace(/\s/g, '');
+          pv.innerText = new Intl.NumberFormat().format(count);
+        })
+        .catch((error) => {
+          pv.innerText = '1';
+        });
+    }
+  });
+</script>
+
+        
+    
+  
 
 
 
@@ -677,6 +704,13 @@
         <div>
           <!-- pageviews -->
           
+          <span>
+            <em id="pageviews">
+              <i class="fas fa-spinner fa-spin small"></i>
+            </em>
+            views
+          </span>
+          
 
           <!-- read time -->
           <!-- Calculate the post's reading time, and display the word count in tooltip -->
@@ -699,7 +733,7 @@
   class="readtime"
   data-bs-toggle="tooltip"
   data-bs-placement="bottom"
-  title="576 words"
+  title="586 words"
 >
   <em>3 min</em> read</span>
 
@@ -733,14 +767,14 @@
   
 
   <div class="content"><h3>Sweet, Cold Nostalgia</h3>
-<p>Sometimes, all it takes is a taste to send you hurtling back in time. For me, that taste is Pudding Pops. There’s something magical about biting into a frozen swirl of creamy chocolate and vanilla, especially when you’re a kid and the world feels endless. In the ’80s, Pudding Pops weren’t just a snack—they were an event, a way to cool off and indulge at the same time. And let’s be honest, they made us feel fancy in a way popsicles couldn’t quite manage.</p>
+<p>Sometimes, all it takes is a taste to send you hurtling back in time. For me, that taste is Pudding Pops. There’s something magical about biting into a frozen swirl of creamy chocolate and vanilla, especially when you’re a kid and the world feels endless. In the ’80s, Pudding Pops weren’t just a snack - they were an event, a way to cool off and indulge at the same time. And let’s be honest, they made us feel fancy in a way popsicles couldn’t quite manage.</p>
 
-<p>My love affair with Pudding Pops started on a sweltering summer day when my mom brought home a box from the store. I can still hear the satisfying crinkle of the wrapper as I tore it open, eager for that first bite. It wasn’t just the taste that hooked me—it was the texture. Smooth, rich, and slightly icy, it was like a frozen dream. Eating one felt like a tiny celebration, a treat worthy of savoring down to the last lick.</p>
+<p>My love affair with Pudding Pops started on a sweltering summer day when my mom brought home a box from the store. I can still hear the satisfying crinkle of the wrapper as I tore it open, eager for that first bite. It wasn’t just the taste that hooked me - it was the texture. Smooth, rich, and slightly icy, it was like a frozen dream. Eating one felt like a tiny celebration, a treat worthy of savoring down to the last lick.</p>
 
 <hr />
 
 <h3 id="a-brief-but-glorious-reign"><span class="me-2">A Brief but Glorious Reign</span><a href="#a-brief-but-glorious-reign" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
-<p>Pudding Pops first hit the shelves in the late ’70s, courtesy of Jell-O’s brilliant idea to turn their pudding into a portable dessert. And for a while, it worked like a charm. By the mid-’80s, they were everywhere—freezers, commercials, and playground conversations. They were the snack you begged for at the grocery store, the one that made you extra popular during sleepovers if your family kept them stocked.</p>
+<p>Pudding Pops first hit the shelves in the late ’70s, courtesy of Jell-O’s brilliant idea to turn their pudding into a portable dessert. And for a while, it worked like a charm. By the mid-’80s, they were everywhere - freezers, commercials, and playground conversations. They were the snack you begged for at the grocery store, the one that made you extra popular during sleepovers if your family kept them stocked.</p>
 
 <p>What set Pudding Pops apart was their texture. Unlike icy popsicles or overly sweet ice cream bars, Pudding Pops felt indulgent. They had a creaminess that could almost trick you into thinking you were eating something sophisticated, even if you were seven years old and sitting on a sticky plastic chair by the kiddie pool.</p>
 
@@ -749,7 +783,7 @@
 <h3 id="the-mystery-of-the-disappearance"><span class="me-2">The Mystery of the Disappearance</span><a href="#the-mystery-of-the-disappearance" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
 <p>But like all good things, Pudding Pops didn’t last. By the early 1990s, they started disappearing from freezers. Some say it was a marketing issue, others blame rising production costs, but for kids who grew up loving them, the reason didn’t matter. All we knew was that one day, they were gone, leaving a pudding-shaped hole in our hearts.</p>
 
-<p>Years later, companies tried to bring them back, but it was never quite the same. Maybe it was the recipe, or maybe it was just the magic of childhood nostalgia that couldn’t be recaptured. Whatever the reason, the new versions felt like knock-offs—pale imitations of the creamy, dreamy originals.</p>
+<p>Years later, companies tried to bring them back, but it was never quite the same. Maybe it was the recipe, or maybe it was just the magic of childhood nostalgia that couldn’t be recaptured. Whatever the reason, the new versions felt like knock-offs - pale imitations of the creamy, dreamy originals.</p>
 
 <hr />
 
@@ -761,12 +795,12 @@
 <hr />
 
 <h3 id="what-would-you-choose"><span class="me-2">What Would You Choose?</span><a href="#what-would-you-choose" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
-<p>So here’s my question: if you could have one more Pudding Pop, just as you remember it, would you go for chocolate, vanilla, or the classic swirl? Personally, I’d go swirl—it’s the best of both worlds, and isn’t that what life is all about?</p>
+<p>So here’s my question: if you could have one more Pudding Pop, just as you remember it, would you go for chocolate, vanilla, or the classic swirl? Personally, I’d go swirl - it’s the best of both worlds, and isn’t that what life is all about?</p>
 </div>
 
 <div class="banner-container text-center my-4">
   
-  <a href="/assets/img/banners/internet-study-1998.gif" class="popup img-link img-fluid shimmer"><img src="/assets/img/banners/internet-study-1998.gif" alt="Banner Ad"  draggable="false" loading="lazy"></a>
+  <a href="/assets/img/banners/excite-2000.gif" class="popup img-link img-fluid shimmer"><img src="/assets/img/banners/excite-2000.gif" alt="Banner Ad"  draggable="false" loading="lazy"></a>
 </div>
   
   <div class="post-tail-wrapper text-muted">
@@ -1203,6 +1237,42 @@
     
       
       <!-- The comments switcher -->
+
+  
+  <!-- https://utteranc.es/ -->
+<script>
+  (function () {
+    const origin = 'https://utteranc.es';
+    const themeMapper = Theme.getThemeMapper('github-light', 'github-dark');
+    const initTheme = themeMapper[Theme.visualState];
+
+    let script = document.createElement('script');
+    script.src = 'https://utteranc.es/client.js';
+    script.setAttribute('repo', 'suroot74/404-chirp');
+    script.setAttribute('issue-term', 'pathname');
+    script.setAttribute('theme', initTheme);
+    script.crossOrigin = 'anonymous';
+    script.async = true;
+
+    const $footer = document.querySelector('footer');
+    $footer.insertAdjacentElement('beforebegin', script);
+
+    addEventListener('message', (event) => {
+      let newTheme;if (event.source === window && event.data && event.data.id === Theme.ID) {
+        newTheme = themeMapper[Theme.visualState];
+
+        const message = {
+          type: 'set-theme',
+          theme: newTheme
+        };
+
+        const utterances = document.querySelector('.utterances-frame').contentWindow;
+        utterances.postMessage(message, origin);
+      }
+    });
+  })();
+</script>
+
 
 
     

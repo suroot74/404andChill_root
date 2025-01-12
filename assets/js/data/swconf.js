@@ -431,7 +431,7 @@
 <!-- return -->
 const swconf = {
   
-    cacheName: 'chirpy-1736684006',resources: [
+    cacheName: 'chirpy-1736688125',resources: [
       '/assets/css/jekyll-theme-chirpy.css',
       '/',
       
@@ -449,6 +449,8 @@ const swconf = {
     interceptor: {paths: [
         
       ],urlPrefixes: [
+        
+          'https://404andchill.goatcounter.com/counter/'
         
       ]
     },

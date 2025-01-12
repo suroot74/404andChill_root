@@ -218,6 +218,33 @@
   
 
   
+    
+        
+          <!-- Display GoatCounter pageviews -->
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const pv = document.getElementById('pageviews');
+
+    if (pv !== null) {
+      const uri = location.pathname.replace(/\/$/, '');
+      const url = `https://404andchill.goatcounter.com/counter/${encodeURIComponent(uri)}.json`;
+
+      fetch(url)
+        .then((response) => response.json())
+        .then((data) => {
+          const count = data.count.replace(/\s/g, '');
+          pv.innerText = new Intl.NumberFormat().format(count);
+        })
+        .catch((error) => {
+          pv.innerText = '1';
+        });
+    }
+  });
+</script>
+
+        
+    
+  
 
 
 
@@ -677,6 +704,13 @@
         <div>
           <!-- pageviews -->
           
+          <span>
+            <em id="pageviews">
+              <i class="fas fa-spinner fa-spin small"></i>
+            </em>
+            views
+          </span>
+          
 
           <!-- read time -->
           <!-- Calculate the post's reading time, and display the word count in tooltip -->
@@ -699,7 +733,7 @@
   class="readtime"
   data-bs-toggle="tooltip"
   data-bs-placement="bottom"
-  title="632 words"
+  title="642 words"
 >
   <em>3 min</em> read</span>
 
@@ -733,7 +767,7 @@
   
 
   <div class="content"><h3>Cheese in a Ball, Joy in a Can</h3>
-<p>If snacks had a personality, Cheez Balls would be the life of the party. Bright orange, unapologetically cheesy, and perfectly bite-sized, they weren’t just a snack—they were a cultural institution. Planters Cheez Balls first rolled onto the scene in the 1980s, and from the moment that blue canister appeared in kitchens and rec rooms, they were a hit. They didn’t ask for your attention; they demanded it, with their neon hue and unmistakable crunch.</p>
+<p>If snacks had a personality, Cheez Balls would be the life of the party. Bright orange, unapologetically cheesy, and perfectly bite-sized, they weren’t just a snack - they were a cultural institution. Planters Cheez Balls first rolled onto the scene in the 1980s, and from the moment that blue canister appeared in kitchens and rec rooms, they were a hit. They didn’t ask for your attention; they demanded it, with their neon hue and unmistakable crunch.</p>
 
 <p>For me, Cheez Balls were synonymous with weekends at my cousin’s house. We’d sit cross-legged on the carpet, a canister between us, and polish off the whole thing in record time. There was no such thing as restraint when it came to Cheez Balls. You didn’t count them; you just kept grabbing, tossing them into your mouth like they were popcorn at the movies. And when the can was empty, our orange-dusted fingers were a badge of honor.</p>
 
@@ -742,7 +776,7 @@
 <h3 id="the-snack-for-every-occasion"><span class="me-2">The Snack for Every Occasion</span><a href="#the-snack-for-every-occasion" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
 <p>Cheez Balls weren’t picky about where they showed up. Birthday parties? Of course. Sleepovers? Mandatory. Picnics? Sure, though they didn’t play well with ants. They were the universal snack, loved by kids and adults alike, and their portable canister made them a staple at gatherings of all kinds. There was something magical about popping the lid and hearing that soft crackle as you reached in for the first handful.</p>
 
-<p>And then there was the texture. Cheez Balls had the perfect crunch—not too hard, not too soft. They dissolved in your mouth just enough to make you reach for more, like some kind of cheesy sorcery. They weren’t trying to be anything but what they were: pure, unadulterated snack food joy.</p>
+<p>And then there was the texture. Cheez Balls had the perfect crunch - not too hard, not too soft. They dissolved in your mouth just enough to make you reach for more, like some kind of cheesy sorcery. They weren’t trying to be anything but what they were: pure, unadulterated snack food joy.</p>
 
 <hr />
 
@@ -754,21 +788,21 @@
 <hr />
 
 <h3 id="the-triumphant-return"><span class="me-2">The Triumphant Return</span><a href="#the-triumphant-return" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
-<p>In 2018, after years of pining and pleading, Planters brought Cheez Balls back. The announcement felt like a collective sigh of relief, a chance to relive those cheesy memories. When I finally got my hands on a canister, it was like opening a time capsule. The first bite was exactly as I remembered—crunchy, cheesy, and just a little ridiculous in the best way.</p>
+<p>In 2018, after years of pining and pleading, Planters brought Cheez Balls back. The announcement felt like a collective sigh of relief, a chance to relive those cheesy memories. When I finally got my hands on a canister, it was like opening a time capsule. The first bite was exactly as I remembered - crunchy, cheesy, and just a little ridiculous in the best way.</p>
 
 <p>These days, Cheez Balls are still around, though they don’t seem to have the same ubiquitous presence they once did. Maybe that’s a good thing. They’ve become a special treat again, a nostalgic nod to a simpler time when snacks didn’t try to be healthy or sophisticated. They were just fun, plain and simple.</p>
 
 <hr />
 
 <h3 id="why-cheez-balls-matter"><span class="me-2">Why Cheez Balls Matter</span><a href="#why-cheez-balls-matter" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
-<p>Cheez Balls weren’t just a snack—they were a shared experience. They brought people together, whether you were huddled around the TV watching Saturday morning cartoons or sneaking handfuls during a family reunion. They were messy, sure, but that was part of the charm. The cheesy dust was like a signature, proof that you’d fully embraced the moment.</p>
+<p>Cheez Balls weren’t just a snack - they were a shared experience. They brought people together, whether you were huddled around the TV watching Saturday morning cartoons or sneaking handfuls during a family reunion. They were messy, sure, but that was part of the charm. The cheesy dust was like a signature, proof that you’d fully embraced the moment.</p>
 
-<p>So, the next time you see a canister of Cheez Balls, don’t hesitate. Grab it, crack it open, and let yourself indulge in a little nostalgia. Because sometimes, the best snacks aren’t just about the taste—they’re about the memories they bring back. What’s your favorite Cheez Ball memory?</p>
+<p>So, the next time you see a canister of Cheez Balls, don’t hesitate. Grab it, crack it open, and let yourself indulge in a little nostalgia. Because sometimes, the best snacks aren’t just about the taste - they’re about the memories they bring back. What’s your favorite Cheez Ball memory?</p>
 </div>
 
 <div class="banner-container text-center my-4">
   
-  <a href="/assets/img/banners/windows-95-1996.gif" class="popup img-link img-fluid shimmer"><img src="/assets/img/banners/windows-95-1996.gif" alt="Banner Ad"  draggable="false" loading="lazy"></a>
+  <a href="/assets/img/banners/msn-1999.jpg" class="popup img-link img-fluid shimmer"><img src="/assets/img/banners/msn-1999.jpg" alt="Banner Ad"  draggable="false" loading="lazy"></a>
 </div>
   
   <div class="post-tail-wrapper text-muted">
@@ -853,25 +887,25 @@
 <div class="access">
   
   
-  <h2 class="panel-heading">Clickbait? Maybe.</h2>
+  <h2 class="panel-heading">Serious Timewasters Ahead</h2>
 
 <div class="image-container">
   <div class="image-item">
-    <a href="https://404andchill.com/coins/" target="_blank">
-      <img src="https://404andchill.com/assets/img/rppc.jpg" alt="Roy's Payphone Scramble" />
-      <p class="caption">Nothing Says Fun Like Loose Change Panic</p>
+    <a href="https://404andchill.com/retro-tech-quiz/" target="_blank">
+      <img src="https://404andchill.com/assets/img/rtq.jpg" alt="The Retro Tech Quiz" />
+      <p class="caption">Think You’re a Tech Genius? Prove It.</p>
     </a>
   </div>
   <div class="image-item">
-    <a href="https://404andchill.com/payphone/" target="_blank">
-      <img src="https://404andchill.com/assets/img/paysim.jpg" alt="The Payphone Simulator" />
-      <p class="caption">Relive the Joy of Clunky Tech and Dropped Calls</p>
+    <a href="https://404andchill.com/static-tv/" target="_blank">
+      <img src="https://404andchill.com/assets/img/tss.jpg" alt="The TV Static Simulator" />
+      <p class="caption">Relive the glory of rabbit ears with the TV Static Simulator</p>
     </a>
   </div>
   <div class="image-item">
-    <a href="https://404andchill.com/please-hold/" target="_blank">
-      <img src="https://404andchill.com/assets/img/ihs.jpg" alt="The Infinite Hold Simulator" />
-      <p class="caption">Hold Music You Didn’t Ask For, But Deserve</p>
+    <a href="https://404andchill.com/vhs-simulator/" target="_blank">
+      <img src="https://404andchill.com/assets/img/vhssim.jpg" alt="The Authentic VHS Simulator" />
+      <p class="caption">Experience the Joy of Tracking Errors!</p>
     </a>
   </div>
 </div>
@@ -1205,6 +1239,42 @@
     
       
       <!-- The comments switcher -->
+
+  
+  <!-- https://utteranc.es/ -->
+<script>
+  (function () {
+    const origin = 'https://utteranc.es';
+    const themeMapper = Theme.getThemeMapper('github-light', 'github-dark');
+    const initTheme = themeMapper[Theme.visualState];
+
+    let script = document.createElement('script');
+    script.src = 'https://utteranc.es/client.js';
+    script.setAttribute('repo', 'suroot74/404-chirp');
+    script.setAttribute('issue-term', 'pathname');
+    script.setAttribute('theme', initTheme);
+    script.crossOrigin = 'anonymous';
+    script.async = true;
+
+    const $footer = document.querySelector('footer');
+    $footer.insertAdjacentElement('beforebegin', script);
+
+    addEventListener('message', (event) => {
+      let newTheme;if (event.source === window && event.data && event.data.id === Theme.ID) {
+        newTheme = themeMapper[Theme.visualState];
+
+        const message = {
+          type: 'set-theme',
+          theme: newTheme
+        };
+
+        const utterances = document.querySelector('.utterances-frame').contentWindow;
+        utterances.postMessage(message, origin);
+      }
+    });
+  })();
+</script>
+
 
 
     
