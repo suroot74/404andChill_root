@@ -81,10 +81,10 @@
   <link rel="stylesheet" href="/assets/css/jekyll-theme-chirpy.css">
 
   <!-- Web Font -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Source+Sans+Pro:wght@400;600;700;900&display=swap">
+  <link rel="stylesheet" href="https://404andchill.com/assets/lib/fonts/main.css">
 
   <!-- Font Awesome Icons -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.7.1/css/all.min.css">
+  <link rel="stylesheet" href="https://404andchill.com/assets/lib/fontawesome-free/css/all.min.css">
 
   <!-- 3rd-party Dependencies -->
 
@@ -122,15 +122,10 @@
 
 
   
-    
-
-    
-
+    <script defer src="https://404andchill.com/assets/lib/simple-jekyll-search/simple-jekyll-search.min.js"></script>
   
 
 
-
-  <script defer src="https://cdn.jsdelivr.net/combine/npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js"></script>
 
 
 
@@ -431,7 +426,7 @@
 <!-- return -->
 const swconf = {
   
-    cacheName: 'chirpy-1736702761',resources: [
+    cacheName: 'chirpy-1736705394',resources: [
       '/assets/css/jekyll-theme-chirpy.css',
       '/',
       
@@ -466,28 +461,24 @@ const swconf = {
 <div class="access">
   
   
-  <h2 class="panel-heading">Serious Timewasters Ahead</h2>
+  <h2 class="panel-heading">Random Stuff I’m Weirdly Proud Of</h2>
 
 <div class="image-container">
   <div class="image-item">
-    <a href="https://404andchill.com/retro-tech-quiz/" target="_blank">
-      <img src="https://404andchill.com/assets/img/rtq.jpg" alt="The Retro Tech Quiz" />
-      <p class="caption">Think You’re a Tech Genius? Prove It.</p>
+    <a href="https://www.flickr.com/photos/bacarty/" target="_blank">
+      <img src="https://404andchill.com/assets/img/flickr.jpg" alt="My Flickr Gallery" />
+      <p class="caption">Proof I Once Left the House: My Flickr Gallery</p>
     </a>
   </div>
   <div class="image-item">
-    <a href="https://404andchill.com/static-tv/" target="_blank">
-      <img src="https://404andchill.com/assets/img/tss.jpg" alt="The TV Static Simulator" />
-      <p class="caption">Relive the glory of rabbit ears with the TV Static Simulator</p>
-    </a>
-  </div>
-  <div class="image-item">
-    <a href="https://404andchill.com/vhs-simulator/" target="_blank">
-      <img src="https://404andchill.com/assets/img/vhssim.jpg" alt="The Authentic VHS Simulator" />
-      <p class="caption">Experience the Joy of Tracking Errors!</p>
+    <a href="https://www.youtube.com/@mixedsignals-sdr" target="_blank">
+      <img src="https://404andchill.com/assets/img/vids.jpg" alt="Some weird videos I made" />
+      <p class="caption">Weird Vids I Made (You’re Welcome)</p>
     </a>
   </div>
 </div>
+
+
 
 </div>
 
