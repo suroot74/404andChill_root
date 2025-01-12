@@ -218,42 +218,6 @@
   
 
   
-    
-        
-          <script>
-  document.addEventListener('DOMContentLoaded', () => {
-    const pv = document.getElementById('pageviews');
-
-    if (pv !== null) {
-      const uri = location.pathname.replace(/\/$/, '');
-      const url = `https://404andchill.goatcounter.com/counter/${encodeURIComponent(uri)}.json`;
-
-      fetch(url)
-        .then((response) => response.json())
-        .then((data) => {
-          // Get the original count from GoatCounter
-          const count = parseInt(data.count.replace(/\s/g, ''), 10);
-
-          // Generate a random number between 322 and 592
-          const randomAddition = Math.floor(Math.random() * (592 - 322 + 1)) + 322;
-
-          // Add the random number to the count
-          const adjustedCount = count + randomAddition;
-
-          // Display the adjusted count with formatting
-          pv.innerText = new Intl.NumberFormat().format(adjustedCount);
-        })
-        .catch((error) => {
-          // Fallback in case of an error
-          pv.innerText = '1';
-        });
-    }
-  });
-</script>
-
-        
-    
-  
 
 
 
@@ -713,13 +677,6 @@
         <div>
           <!-- pageviews -->
           
-          <span>
-            <em id="pageviews">
-              <i class="fas fa-spinner fa-spin small"></i>
-            </em>
-            views
-          </span>
-          
 
           <!-- read time -->
           <!-- Calculate the post's reading time, and display the word count in tooltip -->
@@ -809,7 +766,7 @@
 
 <div class="banner-container text-center my-4">
   
-  <a href="/assets/img/banners/space-network-1998.gif" class="popup img-link img-fluid shimmer"><img src="/assets/img/banners/space-network-1998.gif" alt="Banner Ad"  draggable="false" loading="lazy"></a>
+  <a href="/assets/img/banners/lycos-autos-2000.gif" class="popup img-link img-fluid shimmer"><img src="/assets/img/banners/lycos-autos-2000.gif" alt="Banner Ad"  draggable="false" loading="lazy"></a>
 </div>
   
   <div class="post-tail-wrapper text-muted">
@@ -894,24 +851,28 @@
 <div class="access">
   
   
-  <h2 class="panel-heading">Random Stuff I’m Weirdly Proud Of</h2>
+  <h2 class="panel-heading">Serious Timewasters Ahead</h2>
 
 <div class="image-container">
   <div class="image-item">
-    <a href="https://www.flickr.com/photos/bacarty/" target="_blank">
-      <img src="https://404andchill.com/assets/img/flickr.jpg" alt="My Flickr Gallery" />
-      <p class="caption">Proof I Once Left the House: My Flickr Gallery</p>
+    <a href="https://404andchill.com/retro-tech-quiz/" target="_blank">
+      <img src="https://404andchill.com/assets/img/rtq.jpg" alt="The Retro Tech Quiz" />
+      <p class="caption">Think You’re a Tech Genius? Prove It.</p>
     </a>
   </div>
   <div class="image-item">
-    <a href="https://www.youtube.com/@mixedsignals-sdr" target="_blank">
-      <img src="https://404andchill.com/assets/img/vids.jpg" alt="Some weird videos I made" />
-      <p class="caption">Weird Vids I Made (You’re Welcome)</p>
+    <a href="https://404andchill.com/static-tv/" target="_blank">
+      <img src="https://404andchill.com/assets/img/tss.jpg" alt="The TV Static Simulator" />
+      <p class="caption">Relive the glory of rabbit ears with the TV Static Simulator</p>
+    </a>
+  </div>
+  <div class="image-item">
+    <a href="https://404andchill.com/vhs-simulator/" target="_blank">
+      <img src="https://404andchill.com/assets/img/vhssim.jpg" alt="The Authentic VHS Simulator" />
+      <p class="caption">Experience the Joy of Tracking Errors!</p>
     </a>
   </div>
 </div>
-
-
 
 </div>
 

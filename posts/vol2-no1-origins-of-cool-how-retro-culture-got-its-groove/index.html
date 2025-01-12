@@ -218,42 +218,6 @@
   
 
   
-    
-        
-          <script>
-  document.addEventListener('DOMContentLoaded', () => {
-    const pv = document.getElementById('pageviews');
-
-    if (pv !== null) {
-      const uri = location.pathname.replace(/\/$/, '');
-      const url = `https://404andchill.goatcounter.com/counter/${encodeURIComponent(uri)}.json`;
-
-      fetch(url)
-        .then((response) => response.json())
-        .then((data) => {
-          // Get the original count from GoatCounter
-          const count = parseInt(data.count.replace(/\s/g, ''), 10);
-
-          // Generate a random number between 322 and 592
-          const randomAddition = Math.floor(Math.random() * (592 - 322 + 1)) + 322;
-
-          // Add the random number to the count
-          const adjustedCount = count + randomAddition;
-
-          // Display the adjusted count with formatting
-          pv.innerText = new Intl.NumberFormat().format(adjustedCount);
-        })
-        .catch((error) => {
-          // Fallback in case of an error
-          pv.innerText = '1';
-        });
-    }
-  });
-</script>
-
-        
-    
-  
 
 
 
@@ -713,13 +677,6 @@
         <div>
           <!-- pageviews -->
           
-          <span>
-            <em id="pageviews">
-              <i class="fas fa-spinner fa-spin small"></i>
-            </em>
-            views
-          </span>
-          
 
           <!-- read time -->
           <!-- Calculate the post's reading time, and display the word count in tooltip -->
@@ -820,7 +777,7 @@
 
 <div class="banner-container text-center my-4">
   
-  <a href="/assets/img/banners/space-network-1998.gif" class="popup img-link img-fluid shimmer"><img src="/assets/img/banners/space-network-1998.gif" alt="Banner Ad"  draggable="false" loading="lazy"></a>
+  <a href="/assets/img/banners/hp-shopping-2000.gif" class="popup img-link img-fluid shimmer"><img src="/assets/img/banners/hp-shopping-2000.gif" alt="Banner Ad"  draggable="false" loading="lazy"></a>
 </div>
   
   <div class="post-tail-wrapper text-muted">
