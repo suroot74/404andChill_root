@@ -431,7 +431,7 @@
 <!-- return -->
 const swconf = {
   
-    cacheName: 'chirpy-1736695410',resources: [
+    cacheName: 'chirpy-1736700670',resources: [
       '/assets/css/jekyll-theme-chirpy.css',
       '/',
       
@@ -466,24 +466,28 @@ const swconf = {
 <div class="access">
   
   
-  <h2 class="panel-heading">Random Stuff I’m Weirdly Proud Of</h2>
+  <h2 class="panel-heading">Clickbait? Maybe.</h2>
 
 <div class="image-container">
   <div class="image-item">
-    <a href="https://www.flickr.com/photos/bacarty/" target="_blank">
-      <img src="https://404andchill.com/assets/img/flickr.jpg" alt="My Flickr Gallery" />
-      <p class="caption">Proof I Once Left the House: My Flickr Gallery</p>
+    <a href="https://404andchill.com/coins/" target="_blank">
+      <img src="https://404andchill.com/assets/img/rppc.jpg" alt="Roy's Payphone Scramble" />
+      <p class="caption">Nothing Says Fun Like Loose Change Panic</p>
     </a>
   </div>
   <div class="image-item">
-    <a href="https://www.youtube.com/@mixedsignals-sdr" target="_blank">
-      <img src="https://404andchill.com/assets/img/vids.jpg" alt="Some weird videos I made" />
-      <p class="caption">Weird Vids I Made (You’re Welcome)</p>
+    <a href="https://404andchill.com/payphone/" target="_blank">
+      <img src="https://404andchill.com/assets/img/paysim.jpg" alt="The Payphone Simulator" />
+      <p class="caption">Relive the Joy of Clunky Tech and Dropped Calls</p>
+    </a>
+  </div>
+  <div class="image-item">
+    <a href="https://404andchill.com/please-hold/" target="_blank">
+      <img src="https://404andchill.com/assets/img/ihs.jpg" alt="The Infinite Hold Simulator" />
+      <p class="caption">Hold Music You Didn’t Ask For, But Deserve</p>
     </a>
   </div>
 </div>
-
-
 
 </div>
 
@@ -496,8 +500,6 @@ const swconf = {
           <div id="tail-wrapper" class="col-12 col-lg-11 col-xl-9 px-md-4">
             
 
-                
-            
             <!-- The Footer -->
 
 <footer
@@ -603,7 +605,7 @@ const swconf = {
 
     <!-- Embedded scripts -->
 
-
+    
 
 
   </body>
