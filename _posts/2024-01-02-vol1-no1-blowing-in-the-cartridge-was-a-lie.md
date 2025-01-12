@@ -50,4 +50,5 @@ categories: [404 and Chill Issues]
 
 ---
 
-<p><b>What’s your favorite retro tech memory? Did you blow into a cartridge or tinker with an old computer? Let’s swap stories in the comments.</b></p>
+<p><b>What’s your favorite retro tech memory? Did you blow into a cartridge or tinker with an old computer? Let’s swap stories in the 
+    s.</b></p>
