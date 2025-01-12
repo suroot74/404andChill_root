@@ -789,7 +789,7 @@
 
 <div class="banner-container text-center my-4">
   
-  <a href="/assets/img/banners/ncaa-march-madness-1999.gif" class="popup img-link img-fluid shimmer"><img src="/assets/img/banners/ncaa-march-madness-1999.gif" alt="Banner Ad"  draggable="false" loading="lazy"></a>
+  <a href="/assets/img/banners/macromedia-flash-3-1998.gif" class="popup img-link img-fluid shimmer"><img src="/assets/img/banners/macromedia-flash-3-1998.gif" alt="Banner Ad"  draggable="false" loading="lazy"></a>
 </div>
   
   <div class="post-tail-wrapper text-muted">
@@ -1233,6 +1233,49 @@
 
             
 
+                
+      
+      <!-- The comments switcher -->
+
+  
+  <!-- https://utteranc.es/ -->
+<script>
+  (function () {
+    const origin = 'https://utteranc.es';
+    const themeMapper = Theme.getThemeMapper('github-light', 'github-dark');
+    const initTheme = themeMapper[Theme.visualState];
+
+    let script = document.createElement('script');
+    script.src = 'https://utteranc.es/client.js';
+    script.setAttribute('repo', 'suroot74/404andChill_root');
+    script.setAttribute('issue-term', 'pathname');
+    script.setAttribute('theme', initTheme);
+    script.crossOrigin = 'anonymous';
+    script.async = true;
+
+    const $footer = document.querySelector('footer');
+    $footer.insertAdjacentElement('beforebegin', script);
+
+    addEventListener('message', (event) => {
+      let newTheme;if (event.source === window && event.data && event.data.id === Theme.ID) {
+        newTheme = themeMapper[Theme.visualState];
+
+        const message = {
+          type: 'set-theme',
+          theme: newTheme
+        };
+
+        const utterances = document.querySelector('.utterances-frame').contentWindow;
+        utterances.postMessage(message, origin);
+      }
+    });
+  })();
+</script>
+
+
+
+    
+            
             <!-- The Footer -->
 
 <footer
@@ -1338,48 +1381,7 @@
 
     <!-- Embedded scripts -->
 
-    
-      
-      <!-- The comments switcher -->
 
-  
-  <!-- https://utteranc.es/ -->
-<script>
-  (function () {
-    const origin = 'https://utteranc.es';
-    const themeMapper = Theme.getThemeMapper('github-light', 'github-dark');
-    const initTheme = themeMapper[Theme.visualState];
-
-    let script = document.createElement('script');
-    script.src = 'https://utteranc.es/client.js';
-    script.setAttribute('repo', 'suroot74/404andChill_root');
-    script.setAttribute('issue-term', 'pathname');
-    script.setAttribute('theme', initTheme);
-    script.crossOrigin = 'anonymous';
-    script.async = true;
-
-    const $footer = document.querySelector('footer');
-    $footer.insertAdjacentElement('beforebegin', script);
-
-    addEventListener('message', (event) => {
-      let newTheme;if (event.source === window && event.data && event.data.id === Theme.ID) {
-        newTheme = themeMapper[Theme.visualState];
-
-        const message = {
-          type: 'set-theme',
-          theme: newTheme
-        };
-
-        const utterances = document.querySelector('.utterances-frame').contentWindow;
-        utterances.postMessage(message, origin);
-      }
-    });
-  })();
-</script>
-
-
-
-    
 
 
   </body>
