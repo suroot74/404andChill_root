@@ -3,7 +3,7 @@ layout: post
 title: "Vol. 2, No. 3: Origins of Cool – Gen X Icons and Cultural Shifts"
 description: "A nostalgic dive into the cultural touchstones that defined cool for Gen X, from MTV to arcade culture and early internet freedom."
 keywords: [MTV, arcade culture, Gen X nostalgia, retro tech, 80s trends, early internet]
-date: 2024-02-29 10:00:00 -0500
+date: 2024-01-15 10:00:00 -0500
 published: true
 categories: [404 and Chill Issues]
 ---
