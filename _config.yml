@@ -115,10 +115,8 @@ comments:
     shortname: # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
   # utterances settings › https://utteranc.es/
   utterances:
-    repo: suroot74/404-chirp # <gh-username>/<repo>
+    repo: suroot74/404andChill_root # <gh-username>/<repo>
     issue_term: pathname # < url | pathname | title | ...
-    theme: github-dark
-    crossorigin: anonymous
   # Giscus options › https://giscus.app
   giscus:
     repo: # <gh-username>/<repo>
