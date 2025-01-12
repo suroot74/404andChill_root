@@ -55,6 +55,11 @@ layout: default
               {% include {{ _include_path }} lang=lang %}
             {% endfor %}
 
+                {% for _include in layout.script_includes %}
+      {% assign _include_path = _include | append: '.html' %}
+      {% include {{ _include_path }} %}
+    {% endfor %}
+            
             {% include footer.html lang=lang %}
           </div>
         </div>
@@ -80,10 +85,7 @@ layout: default
 
     <!-- Embedded scripts -->
 
-    {% for _include in layout.script_includes %}
-      {% assign _include_path = _include | append: '.html' %}
-      {% include {{ _include_path }} %}
-    {% endfor %}
+
 
 
   </body>
