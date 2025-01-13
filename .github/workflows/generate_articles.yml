@@ -21,7 +21,7 @@ jobs:
       - name: Run the article generator
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-        run: python generate_article.py
+        run: python generate_articles.py
       - name: Commit and Push Changes
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
