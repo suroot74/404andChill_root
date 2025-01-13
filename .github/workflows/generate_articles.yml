@@ -19,7 +19,12 @@ jobs:
         python-version: '3.11'
 
     - name: Install dependencies
-      run: pip install openai>=1.0.0
+      run: |
+        pip install --upgrade pip
+        pip install openai>=1.0.0
+
+    - name: Verify OpenAI Library Version
+      run: python -c "import openai; print(f'OpenAI version: {openai.__version__}')"
 
     - name: Run the article generator
       env:
