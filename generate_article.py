@@ -2,7 +2,7 @@ import openai
 from datetime import datetime
 
 # Set your OpenAI API key
-openai.api_key = "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"  # Replace with your actual API key
+openai.api_key = "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"  # Replace with your actual API key
 
 def generate_article(prompt):
     try:
