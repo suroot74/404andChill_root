@@ -1,21 +1,22 @@
 import openai
+import os
 from datetime import datetime
 
-# Set your OpenAI API key
-openai.api_key = "sk-csC8NOEARNVB0XwIttHBAuqZBU0VQwZhBAMPSFfYDFT3BlbkFJXL5wkioZz9V8n81xIfFBoRPhtEa7xJcvK8RLFtvFAA"  # Replace with your actual API key
+# Retrieve the API key from the environment variable
+openai.api_key = os.getenv("OPENAI_API_KEY")
 
 def generate_article(prompt):
     try:
         response = openai.ChatCompletion.create(
-            model="gpt-4",
+            model="gpt-4",  # Use "gpt-3.5-turbo" if needed
             messages=[
                 {"role": "system", "content": "You are a helpful assistant who writes blog posts for a Jekyll site."},
                 {"role": "user", "content": prompt}
             ],
-            temperature=0.7  # Adjust for creativity
+            temperature=0.7  # Adjust creativity
         )
         return response['choices'][0]['message']['content']
-    except openai.OpenAIError as e:
+    except Exception as e:
         print(f"OpenAI error: {e}")
         return None
 
@@ -45,4 +46,3 @@ if __name__ == "__main__":
         print(f"Article saved as {filename}")
     else:
         print("Failed to generate the article.")
-
