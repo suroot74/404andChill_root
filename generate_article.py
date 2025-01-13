@@ -15,7 +15,7 @@ def generate_article(prompt):
             ],
             temperature=0.7  # Adjust creativity
         )
-        return response['choices'][0]['message']['content']
+        return response.choices[0].message.content
     except Exception as e:
         print(f"OpenAI error: {e}")
         return None
