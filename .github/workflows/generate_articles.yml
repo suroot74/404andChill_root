@@ -1,12 +1,12 @@
-name: Generate and Commit Article
+name: Gen Article
 
 on:
+  workflow_dispatch:  # Enable manual runs
   schedule:
-    - cron: '0 8 * * *'  # Run daily at 8 AM UTC
-  workflow_dispatch:  # Allow manual runs
+    - cron: '0 8 * * *'  # Daily at 8 AM UTC
 
 jobs:
-  generate_article:
+  generate_articles:
     runs-on: ubuntu-latest
 
     steps:
