@@ -16,6 +16,8 @@ categories: [404 and Chill Issues]
 
 <p>But CDs weren’t just about sound - they were about image. That mirrored surface seemed too perfect to touch, though we all did anyway, leaving smudges and scratches that inevitably led to the dreaded skip. Still, no matter how many scratches we inflicted, the CD remained a marvel - a reflection of a world hurtling toward the digital age.</p>
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vwrU8s-M-gc?si=v706yYGUyogTMlZt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ---
 
 <h3 id="the-era-of-10-cents-for-12-cds">The Era of 10 Cents for 12 CDs</h3>

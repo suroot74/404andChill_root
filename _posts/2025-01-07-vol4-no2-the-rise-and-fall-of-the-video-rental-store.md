@@ -16,6 +16,8 @@ categories: [404 and Chill Issues]
 
 <p>But it wasn’t just about the movies. It was about the hunt, the shared excitement of discovery, and the endless negotiations with friends or family over what to watch. There was a ritual to it all, a rhythm that’s hard to replicate in today’s algorithm-driven world.</p>
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dGxNrhvYhBc?si=2RpTe0RvT2f0PRi6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ---
 
 <h3 id="the-art-of-the-staff-recommendation">The Art of the Staff Recommendation</h3>

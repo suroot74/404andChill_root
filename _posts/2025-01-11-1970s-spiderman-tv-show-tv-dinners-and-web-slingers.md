@@ -14,6 +14,8 @@ categories: [Pop Culture Rewind]
 
 <p>The 1970s live-action *Spider-Man* TV show wasn’t just a program; it was an event. Airing sporadically between 1977 and 1979, it captured the imagination of kids like me who had only ever seen superheroes come to life in comic panels or cartoons. Seeing Nicholas Hammond as Peter Parker, bumbling through daily life before donning the famous red-and-blue suit, was nothing short of awe-inspiring. It didn’t matter that the stunts were clunky or that the web-slinging looked suspiciously like fishing line. For us, it was pure magic.</p>
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lMcCt2Ag4Sg?si=vo7qQpUuF-i3l0V6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ---
 
 <h3 id="a-superhero-we-could-relate-to">A Superhero We Could Relate To</h3>

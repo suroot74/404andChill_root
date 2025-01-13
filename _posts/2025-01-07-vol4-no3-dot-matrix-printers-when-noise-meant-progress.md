@@ -16,6 +16,8 @@ categories: [404 and Chill Issues]
 
 <p>The sound of a dot matrix wasn’t just noise - it was progress. It was proof that something was happening, even if it sounded like the printer was fighting for its life.</p>
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8CVkThNqcsY?si=1uGNPcw_dsXX_aVE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ---
 
 <h3 id="how-dot-matrix-printers-worked">How Dot Matrix Printers Worked</h3>

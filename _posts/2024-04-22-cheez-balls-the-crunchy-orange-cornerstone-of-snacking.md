@@ -16,6 +16,8 @@ categories: [The Snack Cabinet]
 
 <p>And let’s not forget the sound. There was something magical about the *pop* of the lid and the soft rustle as you reached in for your first handful. Every bite brought that perfect crunch, followed by a hit of cheesy goodness that made it impossible to stop. You didn’t just eat Cheez Balls - you experienced them.</p>
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/byntVJPKhsA?si=g8ZVDrKxON3F9lzA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ---
 
 <h3 id="the-snack-for-every-occasion">The Snack for Every Occasion</h3>

@@ -14,6 +14,8 @@ categories: [Pop Culture Rewind]
 
 <p>Each episode threw him into impossible situations - a locked room, a ticking time bomb, or an out-of-control helicopter. And every time, he found a way out using little more than science, ingenuity, and the occasional roll of duct tape. Watching MacGyver wasn’t just entertaining - it was empowering. It made you believe that with enough creativity, you could solve any problem. That paperclip in your junk drawer? It wasn’t just a paperclip anymore. It was a key, a tool, a lifesaver.</p>
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/09UlB17cgKw?si=Drev6UxJAh8EfQu3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ---
 
 <h3 id="the-show-that-made-magic-from-mundane">The Show That Made Magic from the Mundane</h3>

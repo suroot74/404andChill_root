@@ -16,6 +16,8 @@ categories: [The Snack Cabinet]
 
 <p>Opening a can felt like uncorking a bottle of pure energy. And once you took that first fizzy, citrusy sip, you were in on the ride. It wasn’t just a drink - it was an experience.</p>
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CTY8hrvFck8?si=lZfIlVvvP8knH_3j" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ---
 
 <h3 id="a-taste-of-thrill">A Taste of Thrill</h3>

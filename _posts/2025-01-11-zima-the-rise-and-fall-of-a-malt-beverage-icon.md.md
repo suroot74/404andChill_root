@@ -16,6 +16,8 @@ categories: [The Snack Cabinet]
 
 <p>And it worked. By 1994, Zima was a staple of parties, barbecues, and dorm room fridges. It wasn’t just a drink - it was a statement, a symbol of a generation chasing the next cool thing.</p>
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SbvKGdFlSQ0?si=qQ1cQNXuHaSCrFhF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ---
 
 <h3 id="why-zima-mattered">Why Zima Mattered</h3>

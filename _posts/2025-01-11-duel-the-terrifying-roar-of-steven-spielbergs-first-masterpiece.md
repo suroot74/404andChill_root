@@ -14,6 +14,8 @@ categories: [Pop Culture Rewind]
 
 <p>I first watched *Duel* expecting a low-stakes afternoon diversion. Instead, it gripped me with an intensity that left me breathless. The truck wasn’t just a vehicle - it was a living, breathing predator. Its rusted grill was a sneer, its roaring engine a growl, and every frame felt like a warning to never let your guard down.</p>
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SutDTIhbQ2g?si=oA_U_55YiI5f6bRm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ---
 
 <h3 id="spielbergs-suspense-genius-unveiled">Spielberg’s Suspense Genius Unveiled</h3>
