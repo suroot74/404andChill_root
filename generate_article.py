@@ -7,15 +7,13 @@ openai.api_key = os.getenv("OPENAI_API_KEY")
 
 def generate_article(prompt):
     try:
-        response = openai.ChatCompletion.create(
-            model="gpt-4",  # Use "gpt-3.5-turbo" if needed
-            messages=[
-                {"role": "system", "content": "You are a helpful assistant who writes blog posts for a Jekyll site."},
-                {"role": "user", "content": prompt}
-            ],
-            temperature=0.7  # Adjust creativity
+        response = openai.Completion.create(
+            engine="text-davinci-003",  # Use the older model
+            prompt=prompt,
+            max_tokens=500,  # Adjust as needed
+            temperature=0.7  # Adjust creativity level
         )
-        return response['choices'][0]['message']['content']
+        return response['choices'][0]['text'].strip()
     except Exception as e:
         print(f"OpenAI error: {e}")
         return None
@@ -30,7 +28,7 @@ if __name__ == "__main__":
     if article:
         # Define the file name and save path
         today = datetime.now().strftime('%Y-%m-%d')
-        title = "benefits-of-automation"  # Replace spaces with hyphens for the file name
+        title = "benefits-of-automation"
         filename = f"_posts/{today}-{title}.md"
 
         # Write the article to the file with Jekyll front matter
