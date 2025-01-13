@@ -18,6 +18,8 @@ categories: [Rad Ads]
 
 <h3 id="kool-aid-man-oh-yeah-or-oh-no">Kool-Aid Man - Oh Yeah! (Or Oh No?)</h3>
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mpbaznILT3s?si=fWxmgiQBJPWXzn6w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 <p>Let’s start with the big guy himself: the Kool-Aid Man. Few mascots have the same chaotic energy as this sentient pitcher of red drink. He didn’t knock on your door like a normal visitor - he crashed through walls with a thunderous “Oh yeah!” and an unsettling lack of concern for structural integrity. For kids, he was a hero. For parents, he was a financial nightmare, raising one big question: Who paid for all those repairs?</p>
 
 <p>As a kid, I loved the Kool-Aid Man’s boldness. He didn’t ask for permission; he just appeared when you needed him most - usually when the kids in the commercials looked parched and dejected. But, honestly, wasn’t his sudden arrival a little scary? What if you didn’t want Kool-Aid that day? Too bad. Kool-Aid Man had already smashed his way into your living room, and you were stuck with him - and a lot of sugary chaos.</p>
@@ -25,6 +27,8 @@ categories: [Rad Ads]
 ---
 
 <h3 id="tony-the-tiger-greatness-in-every-bite">Tony the Tiger - Greatness in Every Bite</h3>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/v4q4egSQ-fE?si=6TAcvJ5yb4hjWt9P" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <p>Tony the Tiger didn’t just sell Frosted Flakes; he sold optimism. With his deep, reassuring voice and perfectly tied bandana, Tony made kids believe that eating cereal was the secret to being “grrr-eat!” He was a coach, a cheerleader, and a cartoon embodiment of positive vibes.</p>
 
@@ -36,6 +40,8 @@ categories: [Rad Ads]
 
 <h3 id="the-california-raisins-soulful-and-strange">The California Raisins - Soulful and Strange</h3>
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vcDGbaCsatQ?si=6ieBIQ9N_Ry8RkRd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 <p>Few ad campaigns were as delightfully weird as the California Raisins. These anthropomorphic raisins - with their claymation swagger and soulful Motown covers - took the world by storm in the 1980s. Their rendition of “I Heard It Through the Grapevine” was so catchy that it earned them a spot on lunchboxes, T-shirts, and even Saturday morning cartoons.</p>
 
 <p>Looking back, though, you have to wonder: Who thought raisins needed a band? And why did they look so... traumatized? Their exaggerated wrinkles made them seem like they’d lived hard lives. Yet their odd charm was undeniable. They grooved, they sang, and somehow, they made dried fruit seem cool - no small feat.</p>
@@ -45,6 +51,8 @@ categories: [Rad Ads]
 ---
 
 <h3 id="the-noid-an-agent-of-chaos">The Noid - An Agent of Chaos</h3>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MfnYutLvWYs?si=3jzy_VnyYAdJR_kM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <p>And then there was The Noid. This mischievous little gremlin was Domino’s Pizza’s mascot in the late ’80s and early ’90s, and his entire purpose was to ruin your pizza. Cold, soggy, or otherwise destroyed - the Noid lived to sabotage your dinner. Domino’s promised that their delivery service could help you “avoid the Noid,” turning him into more of a villain than a mascot.</p>
 
