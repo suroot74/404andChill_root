@@ -19,7 +19,7 @@ jobs:
         python-version: '3.11'
 
     - name: Install dependencies
-      run: pip install openai
+      run: pip install openai==0.28
 
     - name: Run the article generator
       run: python generate_article.py
