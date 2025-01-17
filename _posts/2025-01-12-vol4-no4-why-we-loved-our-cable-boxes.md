@@ -5,7 +5,7 @@ description: "A nostalgic exploration of the cable boxes of the ’80s and ’90
 keywords: [cable boxes, retro tech, 1980s, 1990s, nostalgia, Gen X, pop culture]
 date: 2025-01-12 15:00:00 -0500
 published: true
-categories: [Issues]
+categories: [404 and Chill Issues]
 ---
 
 <h3 id="the-gateway-to-endless-channels">The Gateway to Endless Channels</h3>
