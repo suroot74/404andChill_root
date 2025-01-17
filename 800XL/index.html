@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Atari 800XL Emulator</title>
+  <style>
+    body {
+      background-color: black;
+      color: white;
+      text-align: center;
+      font-family: Arial, sans-serif;
+    }
+    canvas {
+      display: block;
+      margin: 0 auto;
+      border: 2px solid white;
+    }
+  </style>
+</head>
+<body>
+  <h1>Atari 800XL Emulator</h1>
+  <p>Click below to boot into Atari BASIC.</p>
+  <canvas id="screen" width="384" height="240"></canvas>
+  <script src="https://javatari.org/javatari.js"></script>
+  <script>
+    // Set up the emulator
+    window.onload = function () {
+      const canvas = document.getElementById('screen');
+      const javatari = new JavaAtari({
+        canvas,        // Output canvas
+        SFX: false,    // Disable sound effects for simplicity
+        system: "PAL", // Emulate the PAL system
+        RomList: [
+          {
+            Name: "Atari BASIC",
+            Url: "ataribas.rom" // Replace with actual BASIC ROM URL
+          }
+        ]
+      });
+
+      // Automatically load BASIC
+      javatari.loadRomByUrl("ataribas.rom", "Atari BASIC", true);
+
+      // Start emulator
+      javatari.powerOn();
+    };
+  </script>
+</body>
+</html>
